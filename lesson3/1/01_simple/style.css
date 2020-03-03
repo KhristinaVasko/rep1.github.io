@@ -1,0 +1,48 @@
+
+.table_1{
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.first{
+    width: 100%;
+}
+p{
+    font-size: 18px;
+}
+
+span{
+color: blue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 560px;
+    
+  }
+  
+  li {
+    display: inline-block;
+    float: none;
+    color: white;
+    text-align: center;
+    border-style: dashed;
+    border-color: black;
+  }
+  .footer_1{
+      width: 100%;
+      height: 50px;
+      text-align: center;
+      background-color: rgb(105, 21, 21);
+  }
+  #footer_2{
+      display: inline-block;
+      margin-top: 10px;
+      color: white;
+  }
+  

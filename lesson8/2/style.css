@@ -53,6 +53,7 @@ height: 1195px;
 background-color: white;
 margin-top: 149px;
 margin-left: 70px;
+
 display: inline-block;}
 .title_1{
     color: #b4b4b4;
@@ -85,6 +86,7 @@ margin-top: 21px;
 }
 .par_1{
     color: #000000;
+    width: 900px;
 font-family: Georgia;
 font-size: 27px;
 font-weight: 400;
@@ -96,6 +98,7 @@ margin-left: 124px;
 .par_2{
     color: #000000;
     font-family: Georgia;
+    width: 900px;
     font-size: 27px;
     font-weight: 400;
     line-height: 40.38px;

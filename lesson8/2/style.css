@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #464f54;
+ }
+.container_black{
+    background-color: black;
+    width: 876px;
+    position: absolute;
+height: 187px;
+margin-top: 34px;
+color: white;
+top: 47px;
+left: 650px;
+}
+.sub_title2{
+    color: #fefefe;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.sub_title{
+    color: #767676;
+font-family: "Proxima Nova";
+font-size: 15px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "TITLE" */
+letter-spacing: 4.8px;
+margin-left: 63px;
+margin-top: 50px;
+}
+.yellow_c{
+    width: 876px;
+height: 76px;
+background-color: #fbc02d;
+position: absolute;
+margin-top: 85;
+margin-bottom:20px;
+left: 388px;
+top: 245px;
+margin-left: 200px;
+}
+
+.main{
+    position: relative;
+   
+width: 1200px;
+height: 1195px;
+background-color: white;
+margin-top: 149px;
+margin-left: 70px;
+display: inline-block;}
+.title_1{
+    color: #b4b4b4;
+font-family: "Proxima Nova";
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 6.72px;
+margin-top: 202px;
+margin-left: 125px;
+}
+.title_2{
+    color: #2a2a2a;
+font-family: "Futura PT - Heavy";
+font-size: 78px;
+font-weight: 400;
+line-height: 73.52px;
+text-transform: uppercase;
+letter-spacing: 5.28px;
+margin-left: 127px;
+margin-top: 45px;
+}
+.title_3{
+    color: #8f8f8f;
+font-family: Georgia;
+font-size: 30px;
+line-height: 62.44px;
+margin-left: 123px;
+margin-top: 21px;
+}
+.par_1{
+    color: #000000;
+font-family: Georgia;
+font-size: 27px;
+font-weight: 400;
+line-height: 40.38px;
+font-family: Georgia;
+font-family: "Georgia - Italic";
+margin-left: 124px;
+}
+.par_2{
+    color: #000000;
+    font-family: Georgia;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 40.38px;
+    margin-left: 124px;
+    margin-top: 39px;
+}
+li {
+    float: left;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fbc02d;
+  }
+  li img {
+    display: block;
+    padding: 16px;
+  }

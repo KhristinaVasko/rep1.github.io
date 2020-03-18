@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body{
+    background-image: url(Layer_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.all{
+    position: relative;
+}
+.bcground{
+position: absolute;
+right: 0;
+
+}
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 336px;
+    height: 58px;
+}
+.header_1{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    width: 336px;
+    background-color: #f8edaf;
+}
+.name_1{
+    color: #6e7f7b;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+margin-top: 25px;
+margin-left: 24px;
+}
+.total{
+    color: #a6a28d;
+font-family: Montserrat;
+font-size: 10px;
+font-weight: 400;
+text-transform: uppercase;
+margin-left: 24px;
+letter-spacing: 0.75px;
+}
+.price{
+    color: #637570;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 500;
+margin-top: 21px;
+margin-right: 24px;
+}
+.main_contain{
+    width: 336px;
+height: 532px;
+background-color: #ffffff;
+padding-top: 45px;
+
+}
+.container_2{
+    width: 288px;
+    height: 395px;
+    padding: 30px 24px
+}
+.credit_c{
+    color: #9eabad;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 2;
+}
+.card_input{
+    width: 288px;
+    height: 44px;
+    border: 2px solid #82d4e7;
+    background-color: #ffffff;
+}
+.month{
+    width: 176px;
+height: 44px;
+border: 2px solid #bac8cb;
+background-color: #ffffff;
+}
+.year{
+    width: 96px;
+height: 44px;
+border: 2px solid #bac8cb;
+background-color: #ffffff;
+}
+.cvv_info{
+    color: #9eabad;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 3;
+}
+.cvv_input{
+    width: 96px;
+height: 44px;
+border: 2px solid #bac8cb;
+background-color: #ffffff;
+}
+.info_1{
+    display: inline;
+    color: #9eabad;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+}
+hr{
+    margin-top: 45px;
+}
+.pay{   
+    margin-top: 30px;
+    width: 288px;
+height: 48px;
+background-color: #25b86a;
+}
+.pay_1{
+    color: #ffffff;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+}
+.cancel{
+  text-align: center;
+  margin-top: 22px;
+    color: #9eabad;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+}

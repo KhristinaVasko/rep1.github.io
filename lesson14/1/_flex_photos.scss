@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: end;
+    font-family: Lato;
+    font-size: 34px;
+     color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.95px;
+
+    .first{
+        width: 400px;
+        height: 237px;
+           background-image: url(img/1.png);
+           background-repeat: no-repeat;
+           margin-bottom: 9px;
+        }
+        .second{
+           background-image: url(img/2.png);
+           background-repeat: no-repeat;
+           width: 640px;
+        height: 237px;
+        }
+        .third{
+        background-image: url(img/3.png);
+        background-repeat: no-repeat;
+        width: 475px;
+        height: 237px;
+        }
+        .four{
+           width: 400px;
+        height: 237px;
+        background-image: url(img/4.png);
+        background-repeat: no-repeat;
+        }
+        .five{
+
+           width: 600px;
+        height: 237px;
+        background-image: url(img/5.png);
+        background-repeat: no-repeat;
+        }
+        .six{
+       
+           background-image: url(img/6.png);
+           background-repeat: no-repeat;
+           width: 510px;
+        height: 237px;
+        
+        }
+}

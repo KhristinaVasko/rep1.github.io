@@ -74,7 +74,6 @@ let dataTime = {
   // Функция изменения времени на переданное количество секунд;
   ChanheSecond: function(){
    
-    for(i=0;i<60;i++){
  let changeS =prompt("Введіть число, на скільки зміняться секунди"," ");
 
 if(changeS>=60){
@@ -86,8 +85,9 @@ if(changeS>=60){
       this.seconds=changeS;
       console.log(`змінений час: ${this.hours} : ${this.minutes} : ${this.seconds}`);
     }
-  }
+  
 },
 
 }
+dataTime.outputTime()
 dataTime.ChanheSecond()

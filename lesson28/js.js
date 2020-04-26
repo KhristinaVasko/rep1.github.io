@@ -62,7 +62,48 @@ class FullMarker extends Marker{
 let markerf2 = new FullMarker;
 markerf2.fillMarker();
 
+// Реализовать класс Employee, описывающий работника, и создать массив работников банка
 
+class Employee{
+  constructor(name, position, age){
+    this.name = name;
+    this.position = position;
+    this.age = age;
+  }
+  
+}
+let emp1 = new Employee('Nina','meneger',25);
+let emp2 = new Employee('Olga','administrator',24);
+let emp3 = new Employee('Mykola','support',23);
+let arr = [emp1,emp2,emp3];
+console.log(arr);
 
+class EmpTable {
+  constructor(Empl) {
+      this.arr = Empl
 
+  }
+  getHtml() {
+      document.write(`<table > <thead>
+      <tr>
+          <th>Name</th>
+          <th> Position</th>
+          <th>Age</th>
+      </tr>
+  </thead>
+  <tbody>`)
+      for (let i of this.arr) {
+          document.write(`   <tr  >
+          <td> ${i.name}</td>
+          <td>${i.position}</td>
+          <td> ${i.age}</td>
+      </tr>`)
+      }
+      document.write(` </tbody>
+      </table>`)
+  }
+}
+
+let Abank = new EmpTable(arr);
+Abank.getHtml();
 

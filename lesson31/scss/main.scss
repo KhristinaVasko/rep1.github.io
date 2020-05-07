@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/bg2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;;
+    background-color: #242939;
+    
+}
+.container{
+    padding-bottom: 50px;
+    width: 650px;
+    margin: 0 auto;
+    &__header{
+        display: flex;
+        margin-top:100px;
+        justify-content: center;
+        background-color: #2b3040;
+       &__list{
+           display: flex;
+           padding: 25px 47px;
+           flex-direction: column;
+            &:hover{
+                border-bottom: 2px solid white;
+               
+            } 
+       }
+     
+       }
+       &__info{
+        background-color:#212534;
+        display: flex;
+        &__main{
+            padding-top: 54px;
+            padding-left: 46px;
+            width: 218px;
+        }
+        &__text{
+            padding-top: 54px;
+            padding-left: 36px;
+            .heading{
+                color: #ffffff;
+                font-family: Lato;
+                font-size: 32px;
+                font-weight: 400;
+                line-height: 20px;  
+            }
+            .subtext1{
+                padding-top: 10px;
+                color: #fdfdfd;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+            .subtext2{
+                width: 306px;
+                color: #b7bacd;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                padding-top: 42px;
+                line-height: 22px;
+            }
+            .rating{
+                position: relative;
+                float: right;
+                margin-top: -196px;
+            }
+            .sale{
+                color: #fedc3f;
+                margin-top: 65px;
+                font-family: Lato;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 20px;
+                text-transform: uppercase;
+            }
+            .price{
+                padding-top: 60px;
+                padding-bottom: 50px;
+                &__sale{
+                    color: #fedc3f;
+                    font-family: Lato;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                }
+                &__cost{
+                    color: #ffffff;
+                    font-family: Lato;
+                    font-size: 32px;
+                    padding-top: 9px;
+                    font-weight: 400;
+                    line-height: 20px;
+                }
+                button{
+                    position: relative;
+                    float: right;
+                    width: 164px;
+                    height: 55px;
+                    border-radius: 2px;
+                    background-color: #13e28d;
+                    color: #ffffff;
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    margin-top: -40px;
+                }
+               
+            }
+        }
+    }
+            &__info2{
+                background-color:#212534;
+                
+            }
+
+}
+
+.text_head{
+    color: #b7bacd;
+    width: 118px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    &:hover{
+        color:white;
+    }
+}
+
+.rate {
+    padding-top: 30px;
+    float: left;
+    height: 46px;
+    padding: 8px 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+

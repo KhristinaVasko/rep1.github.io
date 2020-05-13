@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body{
+    background-color: rgb(229, 213, 192);
+}
+#map{
+    width: 90%;
+    height: 500px;
+    margin: 60px auto;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+.container2{
+    background-attachment: #fff;
+    width: 100%;
+    &__line{
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    &__text{
+        color: #2c4058;
+        font-family: Gotham;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 22px;
+        text-transform: uppercase;
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: 114px;
+    }
+}

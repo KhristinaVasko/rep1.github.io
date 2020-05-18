@@ -1,0 +1,100 @@
+.container5{
+    margin-top: 100px;
+    background-image:url(../img/bgcity.png);
+    background-size: cover;
+    background-color:#2ab9f1;
+    width: 100%;
+    background-repeat:no-repeat; 
+    margin-bottom: 140px;
+ hr{
+     width: 100px;
+     margin:  auto;
+ }
+    &__text{
+        color: #ffffff;
+        font-family: Gotham;
+        font-size: 44px;
+        font-weight: 500;
+        margin-top: 181px;
+        text-align: center;
+        line-height: 22px;
+        text-transform: uppercase;
+    }
+    .slider2{
+        position: relative;
+      margin-top: 100px;
+      
+        &__item{
+            width: 370px !important;
+            margin: 30px;
+            height: 514px;
+            position: relative;
+            background-color: #fff;
+            
+      
+             
+            &__descr{
+                bottom: 0;
+                position: absolute;
+                // background-color: #fff;
+                color: #2c4058;
+                font-family: "Gotham";
+                font-size: 22px;
+                font-weight: 700;
+                
+                line-height: 34px;
+                text-transform: uppercase;
+               
+            }
+        
+            .heading5{
+                width: 293px;
+                margin-top: 30px;
+                height: 50px;
+               
+                color: #2c4058;
+                font-family: "Gotham";
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 34px;
+                text-transform: uppercase;
+            }
+            .text5{
+                width: 328px;
+                height: 49px;
+                margin-top: 20px;
+                color: #4b5562;
+                font-family: "OpenSans";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+            }
+            .author{
+                
+                display: flex;
+                margin-top: 46px;
+                margin-left: 20px;
+                &__descr{
+                   margin-left: 20px;
+                    &__name{
+                    color: #2c4058;
+                    font-family: "Gotham - Book";
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    text-transform: uppercase;
+                }
+                &__date{
+                    color: #55b7ff;
+                    font-family: "Gotham - Book";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+                }
+                }
+               
+            }
+        }
+    }
+  
+}

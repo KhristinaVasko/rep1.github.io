@@ -1,0 +1,129 @@
+.container8{
+    width: 100%;
+    // margin-top: 100px;
+    background-image:url(../img/footerbg.png);
+    background-size: cover;
+    position: relative;
+   
+    &_main{
+        width: 50%;
+        margin: 0 auto;
+         display: flex;
+      
+}
+.info8{
+    color: #ffffff;
+    font-family: "Gotham - Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 42px;
+   }
+   .left8{
+    margin-left: 135px;
+       margin-top: 210px;
+   }
+  
+}
+.container8_main__right{
+    margin-top: 210px;
+    margin-left: 50px;
+}
+.form{
+    position: relative;
+}
+.container9withtext{
+    background-color:#fff;
+    position: absolute;
+    bottom: 158px;
+    
+}
+.container9{
+   
+    display: flex;
+   
+    
+}
+span{
+    color: #7e5aff;
+}
+input[type="text"]{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 310px;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	height: 45px;
+}
+input[type="text"]:focus{
+    border-bottom: 1px solid #000;
+}
+
+.contacts{
+    list-style: none;
+    padding: 59px 52px 79px 59px;
+}
+.contacts__list{
+    padding: 20px 0;
+}
+.form_left{
+    padding: 59px 61px 78px 0;
+}
+.formtitle{
+    text-align: center;
+    color: #2c4058;
+    margin-top: 91px;
+    font-family: Gotham;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.submit{
+    background-color:#fff;
+    width: 190px;
+    float: right;
+    height: 50px;
+    color: #2c4058;
+    font-family: "Gotham - Book";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 36px;
+    line-height: 22px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    &:hover{
+        -o-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -moz-transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);  
+        transform: translateY(-20px);
+        transition-duration: 1.0s;
+        background-color:black;
+        color: #fff;   
+    }
+    
+}
+@media (min-width: 960px) and(max-width: 1237px){
+    .container9withtext{
+        left: 202px;
+    }
+    .left8{
+        margin-left: 10px;
+    }
+}
+@media (min-width: 700px) and(max-width: 960px){
+    .container9withtext{
+ 
+
+    }
+    .container9{
+        flex-direction: column;
+    }
+}

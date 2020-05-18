@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+
+.header{
+    
+    background: url(../img/Bg1.png),
+    url(../img/tu-tram-pham-202263.jpg);
+    width: 100%;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__topbar{
+        .logo{
+            margin-left: 160px;
+            margin-top: 48px;
+            &:hover{
+                    cursor: pointer;
+               
+            }
+        }
+       display: flex;
+       align-items: center;
+      .navigation{
+        
+        margin-top: 45px;
+        margin-left: 39px;
+        
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        
+        
+        li{
+            
+            width: 109px;
+            margin: 0px 35px;
+           &::before{
+            content: "\26AC";
+            color: white;
+           }
+           &:hover::before{
+            content: "\2022";
+            color: white;
+         
+           }
+        
+        }
+        a{      
+            text-decoration: none;
+            padding: 0 7px;
+            color: #ffffff;
+            font-family: "Gotham - Book";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            text-transform: uppercase;
+        
+        }
+       }
+       .social-media{
+    
+           margin-top: 58px;
+           &__icon{
+               margin: 0 10px;
+             
+                &:hover{
+                    -o-transform: translateY(-20px);
+                    -ms-transform: translateY(-20px);
+                    -moz-transform: translateY(-20px);
+                    -webkit-transform: translateY(-20px);  
+                    transform: translateY(-20px);
+                    transition-duration: 1.0s;
+                    
+                }
+           }
+       }
+    }
+    .slider{
+
+        width: 100%;
+        &__item{
+            width: 100%;
+            &__heading{
+                margin-top: 285px;
+                text-align: center;
+                color: #fff;
+                font-family: Gotham;
+                font-size: 80px;
+                font-weight: 700;
+                line-height: 22px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            
+            }
+            &__text{
+                color: #ffffff;
+                margin-top: 50px;
+                text-align: center;
+                font-family: "Gotham - Book";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 22px;
+                text-transform: uppercase;
+                letter-spacing: 5.4px;
+                margin-bottom: 250px;
+            }
+        }
+   
+    }
+    .scroll{
+      display: block;
+      margin: auto;
+    
+     
+    }
+    }
+    

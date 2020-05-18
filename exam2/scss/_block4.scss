@@ -1,0 +1,91 @@
+.container4{
+    width: 100%;
+    margin-top: 140px;
+    display: flex;
+   .back2{
+       width: 585px;
+       height: 470px;
+       background-color: #7e5aff;
+       position: relative;
+       margin-left: 300px;
+     
+   }
+   .back2h{
+       display: none;
+   }
+   .comerce{
+       position: absolute;
+       right: 215px;
+       width: 526px;
+       height: 470px;
+       top: 70px;
+   }
+   .comerce2{
+       display: none;
+   }
+    
+    &__left{
+        margin-top: 130px;
+        margin-left: 214px;
+        &__text1{
+            color: #2c4058;
+            font-family: "Gotham - Book";
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 24.01px;
+            text-transform: uppercase;
+        }
+        &__heading{
+            font-weight: 700;
+            font-family: "Gotham";
+            width:500px;
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 24.01px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top:15px;
+        }
+        &__text2{
+            width: 452px;
+            color: #4b5562;
+            font-family: "OpenSans";
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 40px;
+            line-height: 30px;
+        }
+        .details2{
+            background-color:#fff;
+            width: 190px;
+            height: 50px;
+            color: #2c4058;
+            font-family: "Gotham - Book";
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 36px;
+            line-height: 22px;
+            text-transform: uppercase;
+            border: 1px solid black;
+            &:hover{
+                -o-transform: translateY(-20px);
+                -ms-transform: translateY(-20px);
+                -moz-transform: translateY(-20px);
+                -webkit-transform: translateY(-20px);  
+                transform: translateY(-20px);
+                transition-duration: 1.0s;
+                background-color:black;
+                color: #fff;   
+            }
+            
+        }
+        .adress{
+            color: #2c4058;
+            margin-top: 60px;
+            font-family: "OpenSansItalic";
+            font-size: 18px;
+            line-height: 30px;
+           }
+    }
+ 
+}

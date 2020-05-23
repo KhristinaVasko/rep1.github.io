@@ -151,7 +151,7 @@
   position: relative;
 }
 .container3 .back3 .build1 {
-  left: 215px;
+  left: 125px;
   top: 70px;
   position: absolute;
   margin-bottom: 140px;
@@ -227,7 +227,7 @@
 }
 .container4 .comerce {
   position: absolute;
-  right: 215px;
+  right: 100px;
   width: 526px;
   height: 470px;
   top: 70px;
@@ -237,7 +237,7 @@
 }
 .container4__left {
   margin-top: 130px;
-  margin-left: 214px;
+  margin-left: 54px;
 }
 .container4__left__text1 {
   color: #2c4058;
@@ -610,4 +610,121 @@ input[type=text]:focus {
   .container9 {
     flex-direction: column;
   }
+}
+@media screen and (max-width: 1220px){
+  .header__topbar .social-media{
+    display: none;
+  } 
+  .header__topbar{
+    flex-direction: column;
+  }
+  /* .header__topbar .navigation{
+    margin-left: 4px;
+  } */
+.container3{
+  background:none
+}
+.container3 .back3 .build1 {
+  left: 10px;
+    top: 0px;
+}
+.container4 .back2{
+  background: none;
+  margin-left: 1px;
+}
+
+
+.container4 .comerce{
+  right: 10px;
+  width: 469px;
+  height: 416px;
+}
+}
+@media screen and (max-width: 1107px){
+.container3{
+  flex-direction: column;
+}
+.container4{
+  flex-direction: column;
+}
+}
+@media screen and (max-width: 940px){
+
+ .gallery{
+   flex-direction: column;
+ } 
+ .gallery__left{
+   margin-left: auto;
+   margin-bottom: 30px;
+ }
+ .container3__rigth {
+  margin-left: 161px;
+  margin-top: 30px;
+}
+.slider__item__heading{
+  font-size: 53px !important;
+}
+}
+@media screen and (max-width: 750px){
+.header__topbar .navigation li{
+  margin: 0px 6px;
+}
+.container9withtext{
+  left: 10px;
+  width: 583px;
+}
+.container6 .gallery__right {
+  margin-left: 1px;
+}
+.build1{
+  max-width: 400px;
+}
+.container3__right{
+  float: left;
+}
+.form_left{
+  padding-right: 20px;
+}
+.gallery-left{
+float: left;
+}
+.image{
+  max-width: 473px;
+}
+.text3{
+ max-width: 473px; 
+ margin-left: -30px;
+}
+.container8 .left8 {
+  margin-left: 58px;}
+}
+@media screen and (max-width: 580px){
+  .slider__item__heading{
+    font-weight: 500;
+  
+  }
+  .container3__right{
+   display: none;
+  }
+  .container9withtext {
+    left: 0px;
+    width: 100%;}
+    .container9 {
+      
+      flex-direction: column;
+  }
+  .container4__left{
+    margin-left: 7px;
+  }
+  .container4 .comerce{
+    right: 0px;
+  }
+  .container4 .back2 {
+    width: 481px;}
+.text3{
+  width: 320px;
+}
+.text2{
+  width: 320px;
+}
 }

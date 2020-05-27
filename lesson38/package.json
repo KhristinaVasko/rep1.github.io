@@ -1,0 +1,20 @@
+{
+  "name": "monticello",
+  "version": "1.0.0",
+  "description": "1234",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "Khristina Vasko",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-htmlhint": "^3.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

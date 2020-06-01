@@ -1,86 +1,86 @@
 // //Создать страницу, которая выводит нумерованный список песен:
-var playList = [
+// var playList = [
 
-    {
+//     {
     
-     author: "LED ZEPPELIN",
+//      author: "LED ZEPPELIN",
     
-     song:"STAIRWAY TO HEAVEN"
+//      song:"STAIRWAY TO HEAVEN"
     
-    },
+//     },
     
-    {
+//     {
     
-     author: "QUEEN",
+//      author: "QUEEN",
     
-     song:"BOHEMIAN RHAPSODY"
+//      song:"BOHEMIAN RHAPSODY"
     
-    },
+//     },
     
-    {
+//     {
     
-     author: "LYNYRD SKYNYRD",
+//      author: "LYNYRD SKYNYRD",
     
-     song:"FREE BIRD"
+//      song:"FREE BIRD"
     
-    },
+//     },
     
-    {
+//     {
     
-     author: "DEEP PURPLE",
+//      author: "DEEP PURPLE",
     
-     song:"SMOKE ON THE WATER"
+//      song:"SMOKE ON THE WATER"
     
-    },
+//     },
     
-    {
+//     {
     
-     author: "JIMI HENDRIX",
+//      author: "JIMI HENDRIX",
     
-     song:"ALL ALONG THE WATCHTOWER"
+//      song:"ALL ALONG THE WATCHTOWER"
     
-    },
+//     },
     
-    {
+//     {
     
-     author: "AC/DC",
+//      author: "AC/DC",
     
-     song:"BACK IN BLACK"
+//      song:"BACK IN BLACK"
     
-    },
+//     },
     
-    {
+//     {
     
-     author: "QUEEN",
+//      author: "QUEEN",
     
-     song:"WE WILL ROCK YOU"
+//      song:"WE WILL ROCK YOU"
     
-    },
+//     },
     
-    {
+//     {
     
-     author: "METALLICA",
+//      author: "METALLICA",
     
-     song:"ENTER SANDMAN"
+//      song:"ENTER SANDMAN"
     
-    }
+//     }
     
-    ];
+//     ];
    
-    for (let i=0; i < playList.length-1 ;i++)
-    document.write("<br>"+  playList[i].author + "<br>"+ playList[i].song + "<br>");
+//     for (let i=0; i < playList.length-1 ;i++)
+//     document.write("<br>"+  playList[i].author + "<br>"+ playList[i].song + "<br>");
 
     // Создать HTML-страницу с кнопкой "Открыть" и модальным окном. На модальном окне должен быть текст и кнопка "Закрыть". 
     //Изначально модальное окно не отображается. При клике на кнопку "Открыть" появляется модальное окно, на кнопку "Закрыть" – исчезает.
 
-  function OpenWindow(){
-    var x = document.getElementById("modalWindow");
-  x.style.display="block";
-  };
- function CloseWindow(){
-    var y = document.getElementById("modalWindow");
-    y.style.display="none";
- }
+//   function OpenWindow(){
+//     var x = document.getElementById("modalWindow");
+//   x.style.display="block";
+//   };
+//  function CloseWindow(){
+//     var y = document.getElementById("modalWindow");
+//     y.style.display="none";
+//  }
 
 //  Создать HTML-страницу со светофором и кнопкой, которая переключает светофор на следующий цвет.
 let node = null;

@@ -3,8 +3,17 @@
   padding: 0;
   line-height: 1;
 }
-#modalWindow{
-  display: none;
+
+.container{
+  display: flex;
+}
+.container :nth-child(2){
+  
+}
+.traffic_btn{
+  background-color: blue;
+  width: 10px;
+  height: 10px;
 }
 
 .traffic-lights{

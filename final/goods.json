@@ -1,0 +1,63 @@
+{
+    "111": {
+        "name": "Banana",
+        "cost": 6.25,
+        "description": "Fresh babana",
+        "image": "img/productsimg/banana.jpg"
+    },
+    "112": {
+        "name": "Grape",
+        "cost": 8.15,
+        "description": "Fresh Red Seedless",
+        "image": "img/productsimg/grape.jpg"
+    },
+    "113": {
+        "name": "Cucumber",
+        "cost": 6.68,
+        "description": "Organic Cucumber",
+        "image": "img/productsimg/cucumber1.jpg"
+    },
+    "114": {
+        "name": "pepper",
+        "cost": 3.35,
+        "description": "Green Bell Pepper",
+        "image": "img/productsimg/pepper.jpg"
+    },
+    "115": {
+        "name": "Cabbage",
+        "cost": 3.80,
+        "description": "Green Cabbage",
+        "image": "img/productsimg/cabbage.jpg"
+    },
+    "116": {
+        "name": "carrot",
+        "cost": 6.68,
+        "description": "Organic Carrot",
+        "image": "img/productsimg/carrot.jpg"
+    },
+    "117": {
+        "name": "corn",
+        "cost": 6.68,
+        "description": "Organic Sweet Corn",
+        "image": "img/other/cornbig.jpg"
+    },
+    "118": {
+        "name": "hotpepper",
+        "cost": 6.68,
+        "description": "Sugar Snap Peas",
+        "image": "img/productsimg/hotpepper.jpg"
+    },
+    "119": {
+        "name": "apple",
+        "cost": 4.00,
+        "description": "Red Apple",
+        "image": "img/productsimg/apple.jpg"
+    },
+   
+    "120": {
+        "name": "straberry",
+        "cost": 2.10,
+        "description": "Straberry",
+        "image": "img/productsimg/straberry.jpg"
+    }
+}

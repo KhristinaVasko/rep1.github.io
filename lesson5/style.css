@@ -4,10 +4,11 @@
     line-height: 1;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .we_are{
-color: grey;
- width: 300px;
-height: 9px;
 color: #898f99;
 font-family: 'Montserrat', sans-serif;
 font-size: 12px;
@@ -17,12 +18,8 @@ text-transform: uppercase;
 letter-spacing: 4.8px;
 margin-top: 143px;
 text-align: center;
-margin-left: 580px;
-margin-right: 567px;
 }
 .heading_1{
-    width: 700px;
-height: 36px;
 color: #0ec8cb;
 font-family: 'Montserrat', sans-serif;
 font-size: 48px;
@@ -30,22 +27,17 @@ font-weight: 700;
 line-height: 30px;
 text-transform: uppercase;
 letter-spacing: 4.8px;
-display: inline-block;
 margin-top: 35px;
-margin-left: 374px;
 text-align: center;
 }
 .info_1{
-    width: 513px;
-height: 43px;
 color: #999999;
 font-family: "PT Sans";
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
+padding-top: 20px;
 text-transform: uppercase;
-margin-left: 465px;
-margin-top: 44px;
 text-align: center;
 }
 
@@ -86,8 +78,7 @@ margin-top: 108px;}
 
 }
 .navigation{
-    width: 100%;
-    margin-left: 250px;
+width: 100%;
  
 }
 .images_list_1{

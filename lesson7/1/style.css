@@ -18,19 +18,22 @@ body{
   .block1:hover{
     transform: scale(1.2);
   }
+  h1{
+      padding: 10px 0;
+  }
  .block1{
-   
-background:#fff;
-justify-content:space-between;
-text-align: center;
-font-size: 20px;
-flex: 0 330px;
-color: #02995b;
-font-family: Miso;
-font-size: 30px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 1.75px;
+    border-radius: 15px;;  
+    background:#fff;
+    justify-content:space-between;
+    text-align: center;
+    font-size: 20px;
+    flex: 0 330px;
+    color: #02995b;
+    font-family: Miso;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1.75px;
 }
 img{
     margin-top: 15px;
@@ -38,19 +41,19 @@ img{
 }
 .heading{
     width: 156px;
-height: 115px;
-color: #333333;
-font-family: Lato;
-font-weight: 300;
-font-size: 50px;
- margin: auto;
-line-height: 24px;
+    height: 115px;
+    color: #333333;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 50px;
+    margin: auto;
+    line-height: 24px;
  }
 .text{
-font-size: 20px;
-padding-top: 45px;
-letter-spacing: 1px;
-line-height: 20px;
-color: #7f7f7f;
+    font-size: 20px;
+    padding-top: 45px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #7f7f7f;
 }
  

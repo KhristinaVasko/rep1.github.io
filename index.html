@@ -3,89 +3,306 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Beetroot</title>
     <link rel="stylesheet" href="style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <img id="beetroot_img" src="beet-svgrepo-com.svg" alt="буряк">
-        <h1 class="title">Beetroot Academy lessons</h1>
+        <div class="container__top">
+            <img src="photos/giphy.gif" height="300px" alt="arrow down" class="gif">
+            <div class="intro-content">
+                <h2 class="heading1">Hello, I'm Tina, junior front-end developer, graduated from Beetroot Academy course "Front end Web Development" <span><img src="beet-svgrepo-com.svg"  width="40px" alt=""></span></h2>
+               
+                <p class="text1">To see works i did at the time of the course, click on the bottom below</p>
+                <button class="open-but">Click here</button>
+            </div>
+        </div>
+        <div class="worklist">
+            <h1 class="title">Beetroot Academy lessons</h1>
+            <div class="worklist-grid">
+              <!-- exams -->
+               <!-- final project -->
+          <div class="works-el"><a href="final/index.html" target="_blank"><img src="photos/exam3.jpg" class="works-el-photo">
+            <div class="middle">
+                <div class="text">Final project</div>
+              </div>
+            </a>
+        </div>
+              <!-- exam 1 -->
+              <div class="works-el"><a href="exam1/index.html" target="_blank"><img src="photos/exam1.jpg" class="works-el-photo">
+                <div class="middle">
+                    <div class="text">Exam1</div>
+                  </div>
+                </a>
+            </div>
+            <!-- exam 2 -->
+            <div class="works-el"><a href="exam2/index.html" target="_blank"><img src="photos/exam2.jpg" class="works-el-photo">
+              <div class="middle">
+                  <div class="text">Exam2</div>
+                </div>
+              </a>
+          </div>
+         
+                <!-- lesson 1  -->
+                    <div class="works-el"><a href="lesson1/index.html" target="_blank"><img src="lesson1-photo.jpg" class="works-el-photo">
+                        <div class="middle">
+                            <div class="text">Lesson1</div>
+                          </div>
+                        </a>
+                    </div>
+                    <div class="works-el"><a href="lesson1/additional/index1.html"  target="_blank"><img src="lesson1-add-photo.jpg" class="works-el-photo">
+                        <div class="middle">
+                            <div class="text">Lesson 1-2</div>
+                          </div></a></div>
+                          <!-- lesson2 -->
+                    <div class="works-el"><a href="lesson2/index.html"  target="_blank"><img src="photos/lesson2-photo.jpg" class="works-el-photo">
+                        <div class="middle">
+                            <div class="text">Lesson 2</div>
+                          </div></a></div>
+                    <!-- lesson 3  -->
+                    <div class="works-el"><a href="lesson3/1/01_simple/index.html"  target="_blank"><img src="photos/lesson3-1.jpg" class="works-el-photo">
+                        <div class="middle">
+                            <div class="text">Lesson 3-1</div>
+                          </div></a></div>
+                    <div class="works-el"><a href="lesson3/2/02_hard/index.html"  target="_blank"><img src="photos/lesson3-2.jpg" class="works-el-photo">
+                        <div class="middle">
+                            <div class="text">Lesson 3-2</div>
+                          </div>
+                        </a>
+                    </div>
+                          <!-- lesson 4  -->
+                          <div class="works-el"><a href="lesson4/index.html"  target="_blank"><img src="photos/lesson4.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 4</div>
+                              </div>
+                            </a>
+                        </div>
+                        <!-- lesson 5  -->
+                        <div class="works-el"><a href="lesson5/index.html"  target="_blank"><img src="photos/lesson5.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 5</div>
+                              </div>
+                            </a>
+                        </div>
+                        <!-- lesson 6  -->
+                        <div class="works-el"><a href="lesson6(weather)/weather/index.html"  target="_blank"><img src="photos/lesson6.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 6</div>
+                              </div>
+                            </a>
+                        </div>
+                        <!-- lesson 7 -->
+                        <div class="works-el"><a href="lesson7/1/index.html"  target="_blank"><img src="photos/lesson7-1.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 7-1</div>
+                              </div>
+                            </a>
+                        </div>
+
+                        <div class="works-el"><a href="lesson7/2/index.html"  target="_blank"><img src="photos/lesson7-2.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 7-2</div>
+                              </div>
+                            </a>
+                        </div>
+                        <!-- lesson 8 -->
+                        <div class="works-el"><a href="lesson8/1/index.html"  target="_blank"><img src="photos/lesson8-1.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 8-1</div>
+                              </div>
+                            </a>
+                        </div>
+
+                        <div class="works-el"><a href="lesson8/2/index.html"  target="_blank"><img src="photos/lesson8-2.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 8-2</div>
+                              </div>
+                            </a>
+                        </div>
+                        <!-- lesson 9 -->
+                        <div class="works-el"><a href="lesson9/1/index.html"  target="_blank"><img src="photos/lesson9.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 9</div>
+                              </div>
+                            </a>
+                        </div>
+
+                        <div class="works-el"><a href="lesson9/2/index.html"  target="_blank"><img src="photos/lesson9-2.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 9-2</div>
+                              </div>
+                            </a>
+                        </div>
+                        <!-- lesson 10 -->
+                        <div class="works-el"><a href="lesson10/1/index.html"  target="_blank"><img src="photos/lesson10.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 10-1</div>
+                              </div>
+                            </a>
+                        </div>
+
+                        <div class="works-el"><a href="lesson10/2/index.html"  target="_blank"><img src="photos/lesson10-2.jpg" class="works-el-photo">
+                            <div class="middle">
+                                <div class="text">Lesson 10-2</div>
+                              </div>
+                            </a>
+                        </div>
+                        <!-- lesson 11 -->
+                        <div class="works-el"><a href="lesson11/1/index.html"  target="_blank"><img src="photos/lesson11-1.jpg" class="works-el-photo">
+                          <div class="middle">
+                              <div class="text">Lesson 11-1</div>
+                            </div>
+                          </a>
+                      </div>
+                      <div class="works-el"><a href="lesson11/3/index.html"  target="_blank"><img src="photos/contact.jpg" class="works-el-photo">
+                        <div class="middle">
+                            <div class="text">Lesson 11-2</div>
+                          </div>
+                        </a>
+                    </div>
+                    <div class="works-el"><a href="lesson11/4/index.html"  target="_blank"><img src="photos/lesson11-4.jpg" class="works-el-photo">
+                      <div class="middle">
+                          <div class="text">Lesson 11-3</div>
+                        </div>
+                      </a>
+                  </div>
+                  <!-- lesson 12 -->
+                  <div class="works-el"><a href="lesson12/1/index.html"  target="_blank"><img src="photos/lesson12-1.jpg" class="works-el-photo">
+                    <div class="middle">
+                        <div class="text">Lesson 12-1</div>
+                      </div>
+                    </a>
+                </div>
+                <div class="works-el"><a href="lesson12/2/index.html"  target="_blank"><img src="photos/lesson12-1.jpg" class="works-el-photo">
+                  <div class="middle">
+                      <div class="text">Lesson 12-2</div>
+                    </div>
+                  </a>
+              </div>
+              <!-- lesson 13 -->
+              <div class="works-el"><a href="lesson13/index.html"  target="_blank"><img src="photos/lesson13.jpg" class="works-el-photo">
+                <div class="middle">
+                    <div class="text">Lesson 13</div>
+                  </div>
+                </a>
+            </div>
+           <!-- lesson 14 -->
+           <div class="works-el"><a href="lesson14/1/index.html"  target="_blank"><img src="photos/lesson12-2.jpg" class="works-el-photo">
+            <div class="middle">
+                <div class="text">Lesson 14</div>
+              </div>
+            </a>
+        </div>
+        <!-- lesson 16 -->
+        <div class="works-el"><a href="lesson16/index.html"  target="_blank"><img src="photos/lesson16.jpg" class="works-el-photo">
+          <div class="middle">
+              <div class="text">Lesson 16</div>
+            </div>
+          </a>
+      </div>
+      <!-- lesson21 -->
+      <div class="works-el"><a href="lesson21/lesson1/index.html"  target="_blank"><img src="photos/lesson21.jpg" class="works-el-photo">
+        </a>
+    </div>
+      <!-- lesson22 -->
+      <div class="works-el"><a href="lesson22/index.html"  target="_blank"><img src="photos/lesson22.jpg" class="works-el-photo">
+      </a>
+  </div>
+    <!-- lesson 23 -->
+    <div class="works-el"><a href="lesson23/functions/index.html"  target="_blank"><img src="photos/function.jpg" class="works-el-photo">
+    </a>
+</div>
+
+<div class="works-el"><a href="lesson23/loop/index.html"  target="_blank"><img src="photos/loop.jpg" class="works-el-photo">
+</a>
+</div>
+<!-- lesson 24 -->
+<div class="works-el"><a href="lesson24/1/index.html"  target="_blank"><img src="photos/navigation.jpg" class="works-el-photo">
+  <div class="middle">
+    <div class="text">Lesson 24(navigation)</div>
+  </div>
+</a>
+</div>
+
+<div class="works-el"><a href="lesson24/2/index.html"  target="_blank"><img src="photos/list.jpg" class="works-el-photo">
+  <div class="middle">
+    <div class="text">Lesson 24(Shopping list)</div>
+  </div>
+</a>
+</div>
+<!-- lesson 26 -->
+<div class="works-el"><a href="lesson26/index.html"  target="_blank"><img src="photos/26.jpg" class="works-el-photo">
+</a>
+</div>
+<!-- lesson 27 -->
+<div class="works-el"><a href="lesson27/index.html"  target="_blank"><img src="photos/27.jpg" class="works-el-photo">
+</a>
+</div>
+<!-- lesson 28 -->
+<div class="works-el"><a href="lesson28/index.html"  target="_blank"><img src="photos/28.jpg" class="works-el-photo">
+</a>
+</div>
+<!-- lesson 29 -->
+<div class="works-el"><a href="lesson29/index.html"  target="_blank"><img src="photos/29.jpg" class="works-el-photo">
+</a>
+</div>
+<!-- lesson 30 -->
+<div class="works-el"><a href="lesson30/index.html"  target="_blank"><img src="photos/30.jpg" class="works-el-photo">
+  <div class="middle">
+    <div class="text">Lesson 30-1</div>
+  </div>
+</a>
+</div>
+
+<!-- lesson 31 -->
+<div class="works-el"><a href="lesson31/1/index.html"  target="_blank"><img src="photos/farcart.jpg" class="works-el-photo">
+  <div class="middle">
+    <div class="text">Lesson 31-1</div>
+  </div>
+</a>
+</div>
+<div class="works-el"><a href="lesson31/2/index.html"  target="_blank"><img src="photos/calculator.jpg" class="works-el-photo">
+  <div class="middle">
+    <div class="text">Lesson 31-2</div>
+  </div>
+</a>
+</div>
+<!-- lesson 32 -->
+<div class="works-el"><a href="lesson32/index.html"  target="_blank"><img src="photos/32.jpg" class="works-el-photo">
+  <div class="middle">
+    <div class="text">Lesson 32(Slider)</div>
+  </div>
+</a>
+</div>
+<!-- lesson 34 -->
+<div class="works-el"><a href="lesson34/index.html"  target="_blank"><img src="photos/34.jpg" class="works-el-photo">
+  <div class="middle">
+    <div class="text">Lesson 34(Cart)</div>
+  </div>
+</a>
+</div>
+<!-- lesson 36 -->
+<div class="works-el"><a href="lesson36/index.html"  target="_blank"><img src="photos/36.jpg" class="works-el-photo">
+  <div class="middle">
+    <div class="text">Lesson 36(Css animation)</div>
+  </div>
+</a>
+</div>
+
+
+                    
+            </div>
+            
+             <button class="close-but">Close window</button>
+        </div>
+
+        <script src="js.js"></script>
+         
         
-    <ul id="lessons_list" class="lessons_list  ">
-        <li class="list_item"><a href="/final/index.html">final project</a></li>
-       
         
-        <li class="list_item"><a href="/exam1/index.html">Exam1</a></li>
-        <li class="list_item"><a href="/exam2/index.html">exam2 JS</a></li>
-
-        <li class="list_item"><a href="/lesson38/app/index.html">lesson38 (Gulp)</a></li>
-        <li class="list_item"><a href="/lesson36/index.html">lesson36 (Animation)</a></li>
-        <li class="list_item"><a href="/lesson34/index.html">Lesson 34 Google maps</a></li>
-
-        <li class="list_item"><a href="/lesson32/index.html">Lesson 32 slick slider</a></li>
-
-        <li class="list_item"><a href="/lesson31/1/index.html">Lesson 31 tabs</a></li>
-        <li class="list_item"><a href="/lesson31/2/index.html">Lesson 31 calculator</a></li>
-
-        <li class="list_item"><a href="/lesson30/index.html">Lesson 30 JS Events</a></li>
-        <li class="list_item"><a href="/lesson29/index.html">Lesson 29 DOM</a></li>
-        <li class="list_item"><a href="/lesson28/index.html">Lesson 28 JS Classes</a></li>
-        <li class="list_item"><a href="/lesson26/index.html">Lesson 26 JS Objects</a></li>
-        
-        <li class="list_item"><a href="/lesson24/1/index.html">Lesson 24 HTML5(anchor links)</a></li>
-        <li class="list_item"><a href="/lesson24/2/index.html">Lesson 24 HTML5(shopping list)</a></li>
-
-        <li class="list_item"><a href="/lesson23/loop/index.html">Lesson 23 functions</a></li>
-        <li class="list_item"><a href="/lesson23/functions/index.html">Lesson 23 loops</a></li>
-        <li class="list_item"><a href="/lesson22/index.html">Lesson 22(Js data types)</a></li>
-        <li class="list_item"><a href="/lesson21/lesson1/index.html">Lesson 21(JS intro)</a></li>
-        
-        <li class="list_item"><a href="/lesson16/index.html">Lesson 16(cross browser template)</a></li>
-        <li class="list_item"><a href="/lesson15/home1/index.html">Lesson 15(adaptive template1 + navigation bar)</a></li>
-
-
-        <li class="list_item"><a href="/lesson14/1/index.html">Lesson 14(adaptive template1)</a></li>      
-        <li class="list_item"><a href="/lesson13/index.html">Lesson 13(template1)</a></li>  
-
-        <li class="list_item"><a href="/lesson12/2/index.html">Lesson 12(template2)</a></li>
-        <li class="list_item"><a href="/lesson12/1/index.html">Lesson 12(template1)</a></li>
-
-        <li class="list_item"><a href="/lesson11/4/index.html">Lesson 11(4)</a></li> 
-        <li class="list_item"><a href="/lesson11/3/index.html">Lesson 11(3)</a></li>
-        <li class="list_item"><a href="/lesson11/1/index.html">Lesson 11(2)</a></li>
-
-        <li class="list_item"><a href="/lesson10/2/index.html">Lesson 10(2)</a></li>
-        <li class="list_item"><a href="/lesson10/1/index.html">Lesson 10(1)</a></li>
-
-        <li class="list_item"><a href="/lesson9/2/index.html">Lesson 9(position_hard)</a></li>
-        <li class="list_item"><a href="/lesson9/1/index.html">Lesson 9(position)</a></li>
-
-        <li class="list_item"><a href="/lesson8/2/index.html">Lesson 8(hard fonts)</a></li>
-        <li class="list_item"><a href="/lesson8/1/index.html">Lesson 8(simple fonts)</a></li>
-
-        <li class="list_item"><a href="/lesson7/2/index.html">Lesson 7(hard flex)</a></li>
-        <li class="list_item"><a href="/lesson7/1/index.html">Lesson 7(simple flex)</a></li>
-
-        <li class="list_item"><a href="/lesson6(weather)/weather/index.html">Lesson 6 Weather</a></li>
-        <li class="list_item"><a href="/lesson5/index.html">Lesson 5(Hello Nameste)</a></li>
-        <li class="list_item"><a href="/lesson4/index.html">Lesson 4</a></li>
-        <li class="list_item"><a href="/lesson3/2/02_hard/index.html">Lesson 3(hard)</a></li>
-        <li class="list_item"><a href="/lesson3/1/01_simple/index.html">Lesson 3</a></li>
-        <li class="list_item"><a href="/lesson2/index.html">Lesson 2</a></li>
-        <li class="list_item"><a href="/lesson1/додаткове/index.html">Lesson 1(додаткове)</a></li>
-        <li class="list_item"><a href="/lesson1/index.html">Lesson 1</a></li>
-        
-     
-        
-
-        
-
-        
-
   
-
-       
-    </ul>
 </div>
 </body>
-</html>
+</html>-

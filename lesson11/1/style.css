@@ -91,6 +91,9 @@ height: 44px;
 border: 2px solid #bac8cb;
 background-color: #ffffff;
 }
+input[type=text], input[type=number], select[name=month], select[name=year]{
+    padding: 5px;
+}
 .cvv_info{
     color: #9eabad;
 font-family: Montserrat;

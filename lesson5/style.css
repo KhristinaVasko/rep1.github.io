@@ -78,7 +78,8 @@ margin-top: 108px;}
 
 }
 .navigation{
-width: 100%;
+max-width: 1000px;
+margin: 0 auto;
  
 }
 .images_list_1{
@@ -116,18 +117,22 @@ width: 100%;
     text-align: center;
 }
 .stickers_1:hover{
+ transition: 1s;
  border: 1px solid #0ec8cb;
  background-color: #0ec8cb;
 }
 .stickers_2:hover{
+    transition: 1s;
     border: 1px solid #0ec8cb;
     background-color: #0ec8cb;
    }
    .stickers_3:hover{
+    transition: 1s;
     border: 1px solid #0ec8cb;
     background-color: #0ec8cb;
    }
    .stickers_4:hover{
+    transition: 1s;
     border: 1px solid #0ec8cb;
     background-color: #0ec8cb;
    }

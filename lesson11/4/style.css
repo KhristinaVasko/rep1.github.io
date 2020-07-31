@@ -3,6 +3,9 @@
     padding: 0;
     line-height: 1;
 }
+body{
+    background-color:rgb(186, 95, 189);
+}
 
 .container { 
 margin: 0 auto;

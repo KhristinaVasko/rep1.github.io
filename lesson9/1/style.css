@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    cursor: pointer;
 
 }
 body{
@@ -33,57 +33,61 @@ margin-top: 30px;
 margin-left: 469px;
 }
 .sticker1{
-    width: 370px;
-height: 310px;
+width: 370px;
 background: url(img1.png) no-repeat;
-padding: 30px;
 position: relative;
 }
-
+.data1{
+    margin-left: 15px;
+}
+.sticker{
+    padding: 0 10px;
+}
 .sticker2{
-    width: 370px;
-height: 310px;
+width: 370px;
+height: 280px;
 background: url(img2.png) no-repeat;
-padding: 30px;
+background-size: cover;
+padding: 10px;
 position: relative;
 }
 
 .sticker3{
-    width: 370px;
-height: 310px;
+width: 370px;
 background: url(img3.png) no-repeat;
 position: relative;
-padding: 20px;
+margin-left: 20px;
 }
 .container{
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 47px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
 .footer{
-    margin-left: 650px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
     width: 200px;
-height: 55px;
-background-color: #f72b3b;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-
+    background-color: #f72b3b;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 15px 43px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-transform: uppercase;
 }
-.buttom{
-padding: 20px 43px;
-
-text-align: center;
-width: 114px;
-height: 15px;
-color: #ffffff;
-font-family: Raleway;
-font-size: 20px;
-font-weight: 300;
-line-height: 25px;
-text-transform: uppercase;
+.footer:hover{
+    background-color: rgb(146, 5, 5);
 }
+
 .data{
 border-radius: 5px;
  width: 60px;

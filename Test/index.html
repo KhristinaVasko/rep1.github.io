@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8da4a4becf.js" crossorigin="anonymous"></script>
+
+    
+    <title>Document</title>
+</head>
+<body>
+  <script src="js/script.js"></script>
+    <main>
+      <!-- modal window -->
+      <div class="bg-modal">
+        <div class="modal-content">
+          <div id="close" class="close"><img src="img/close.png" alt="" class="close-icon"></div>
+          <h3 class="modal-title">Zanechte své telefonní číslo, zavoláme vám zpět</h3>
+          <form action="" class="modal-form">
+            <input type="text" placeholder="Tvé jméno" class="modal-name"><br>
+            <input type="text" placeholder="Telefonní číslo" class="modal-tel">
+            <p class="modal-decor">|</p>
+            <button class="modal-button">Poslat</button>
+          </form>
+          
+        </div>
+       
+      </div>
+      <!-- end of modal window -->
+        <div class="main-container">
+
+            <!-- header -->
+            <header >
+              
+                <div class="header-left">
+                    <div class="header__social">
+                    <img src="img/icons/facebook.svg" class="header-icon" alt="Facebook icon">
+                    <img src="img/icons/instagram.svg" class="header-icon" alt="instagram icon">
+                </div>
+                <div class="header__lang">
+                    <ul class="header__lang-list">
+                        <li class="header__lang-list-item">cz</li>
+                        <li class="header__lang-list-item">ru</li>
+                        <li class="header__lang-list-item">eng</li>
+                    </ul>
+                </div>
+                </div>
+
+                <div class="header-right">
+                  <!-- navigation -->
+                    <nav>
+                      <ul class="nav-list">
+                        <li class="list-item onas"><a href="#" class="nav-link">O nas</a></li>
+                        <li class="list-item"><a  href="#" class="nav-link">Galerie</a></li>
+                        <li class="list-item"><a  href="#" class="nav-link">Sluzby</a></li>
+                        <li class="list-item"><a  href="#" class="nav-link">Cenik</a></li>
+                        <li class="list-item"><a  href="#" class="nav-link">Recenze</a></li>
+                        <li class="list-item"><a  href="#" class="nav-link">Kontakt</a></li>
+                      </ul>
+                    </nav>
+                   <!-- end of the navigation -->
+                   <div class="contacts">
+                     <button id="button-open"><img src="img/icons/phone.svg" alt="Phone icon" class="header-contacts" ></button>
+                     <!-- burger -->
+                    <a href="#" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                     <!-- end of the burger -->
+                     <p class="header-phone">+42 077 321 79 14</p>
+                   </div>
+              
+             </header>
+             
+             <div id="myLinks">
+                <a href="#news" class="burger_link">O nas</a>
+                <a href="#contact" class="burger_link">Contact</a>
+                <a href="#about" class="burger_link">Sluzby</a>
+                <a href="#news" class="burger_link">Cenik</a>
+                <a href="#contact" class="burger_link">Recenze</a>
+                <a href="#about" class="burger_link">Kontakt</a>
+              <div class="burger-lang">
+                <ul class="b-lang">
+                  <li class="b-lang-item">cz</li>
+                  <li class="b-lang-item">ru</li>
+                  <li class="b-lang-item">eng</li>
+                </ul>
+              </div>
+             </div>
+            <!-- end of the header -->
+            <div class="slider-container">
+              <div class="wrapper">
+                <div class="slider">
+                  <div class="slider__item">
+                    <img src="img/slides/slide1.png" alt="" class="slider-photo">
+                    <img src="img/Vector.png" alt="" class="rotating">
+                    <img src="img/logoline.svg" alt="" class="logoline1">
+                    <img src="img/Logo.svg" alt="" class="logo-name">
+                    <img src="img/logocircke.png" alt="" class="rotating1">
+                    <img src="img/logoline.svg" alt="" class="logoline2">
+                  </div>
+                  <div class="slider__item">
+                    <img src="img/slides/slide2.png" alt="" class="slider-photo">
+                    <img src="img/Vector.png" alt="" class="rotating">
+                    <img src="img/logoline.svg" alt="" class="logoline1">
+                    <img src="img/Logo.svg" alt="" class="logo-name">
+                    <img src="img/logocircke.png" alt="" class="rotating1">
+                    <img src="img/logoline.svg" alt="" class="logoline2">
+                  </div>
+                  <div class="slider__item">
+                    <img src="img/slides/slide3.png" alt="" class="slider-photo">
+                    <img src="img/Vector.png" alt="" class="rotating">
+                    <img src="img/logoline.svg" alt="" class="logoline1">
+                    <img src="img/Logo.svg" alt="" class="logo-name">
+                    <img src="img/logocircke.png" alt="" class="rotating1">
+                    <img src="img/logoline.svg" alt="" class="logoline2">
+                   
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- end of slider -->
+            <button class="footer-button">Domluvte si schůzku</button>
+            <button  id="button-open1" class="footer-call">
+              <img src="img/icons/pink-call.svg" alt="" class="footer-phone">
+            </button>
+        </div>
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

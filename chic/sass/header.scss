@@ -122,7 +122,6 @@ main{
             padding-top: 5px;
             //border-left: 1px solid #ccc;
         }
-      
     }
     .contacts-container:hover{
         border: 1px solid #E0AFBC;
@@ -133,12 +132,87 @@ main{
     .contacts-container:hover .phone{
         fill:  #E0AFBC; 
     }
-   
+    
 
     }
-    //animated burger menu
-   
-    
-    //end of right part header
+    #imgplus{
+        border: 1px solid #ccc;
+        padding: 23px;
+        display: none;
+    }
+    .closebtn{
+        border: 1px solid pink;
+        text-decoration: none;
+        height: 66px;
+        width: 63px;
+        text-align: center;
+        padding-top: 12px;
+        display: none;
+        color: #000;
+        font-size: 38px;
+        font-weight: 600;
+        background-color: rgba(204, 137, 148, 0.644);
+    }
+     //end of right part header
 }
 // end of header styles
+
+//animated burger menu
+ .overlay {
+        width: 0;
+        position: fixed;
+        z-index: 5;
+        overflow-x: hidden;
+        transition: 0.5s;
+        background-color: #fff; 
+        .overlay-content {        
+        width: 90%;
+        text-align: center;
+        background-image: url(../img/Vector.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+        .burger-lang-list{
+            display: flex;
+            list-style: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-family: "Open Sans";
+            margin: 20px auto;
+           .burg-lang-list-item{
+               margin: 0 10px;
+               outline: none;
+           }
+           .burg-lang-list-item:hover{
+            color: #E0AFBC;
+            font-weight: 900;
+            -webkit-text-stroke: 0.1px black;
+           }
+           .active{
+            color: #ccc;  
+           }
+        }
+      }
+      }
+      .overlay a {
+        text-decoration: none;
+        font-family: Open Sans;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.15em;
+        color: #171717;
+        margin: 40px auto 0;
+        display: inline-block;
+        transition: 0.3s;
+        background: url(../img/nav-line.png);
+        background-repeat: no-repeat;
+        background-position: bottom left;
+      }
+      .overlay a:hover, .overlay a:focus {
+        background: rgba(224, 175, 188, 0.3);
+      }
+      
+   

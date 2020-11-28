@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/normilize.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/8da4a4becf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -63,26 +64,40 @@
                 <div class="vertical-line"></div>
                 <div class="contacts-number">+42 077 321 79 14</div>
             </div>
-            <div class="menu-btn">
-                <div class="menu-btn__burger"></div>
+            <span style="font-size:20px;cursor:pointer" id="burg-icon" onclick="openNav()"><img src="img/icons/hamburger.svg" id="imgplus" alt=""></span>
+            <div href="javascript:void(0)" class="closebtn" id="burg-close" onclick="closeNav()">&times;</div>
+            <!-- burger menu -->
             </div>
-        </div>
             <!-- end of right part of header -->
         </header>
         <!-- /header -->
-        <!-- <div id="myLinks">
-            <a href="#news" class="burger_link">O nas</a>
-            <a href="#contact" class="burger_link">Contact</a>
-            <a href="#about" class="burger_link">Sluzby</a>
-            <a href="#news" class="burger_link">Cenik</a>
-            <a href="#contact" class="burger_link">Recenze</a>
-            <a href="#about" class="burger_link">Kontakt</a>
-          <div class="burger-lang">
-            
-          </div>
-         </div> -->
+
+        <div id="myNav" class="overlay">
+        <div class="overlay-content">
+          <a href="#">O nas</a>
+          <a href="#">Galerie</a>
+          <a href="#">Sluzby</a>
+          <a href="#">Cenik</a>
+          <a href="#">Recenze</a>
+          <a href="#">Kontakt</a>
+            <ul class="burger-lang-list">
+                <li class="burg-lang-list-item active">cz</li>
+                <li class="burg-lang-list-item">ru</li>
+                <li class="burg-lang-list-item">eng</li>
+            </ul>
+        </div>
+      </div>
+         <!-- slider -->
+       
+         <!-- /slider -->
+          
+         
     </main>
+ 
+
+   
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

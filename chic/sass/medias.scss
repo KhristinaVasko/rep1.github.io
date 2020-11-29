@@ -82,10 +82,29 @@
     }
     
 }
+@media(max-width: 410px){
+    .footer-button{
+        padding: 26px 40px;
+    }
+}
+@media(max-width: 352px){
+    .footer-button{
+        padding: 26px 22px;
+    }
+ 
+}
 @media(max-width: 1230px){
 .overlay{
     height: 700px;
 }
+}
+@media(max-width: 1400px){
+    .footer-call{
+        display: none;
+    }
+    .slick-arrow.slick-next{
+        display: none !important;
+    }
 }
 @media(max-width: 503px){
     .slider__item .slide-bg{

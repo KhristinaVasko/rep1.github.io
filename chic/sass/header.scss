@@ -216,4 +216,44 @@ main{
         background: rgba(224, 175, 188, 0.3);
       }
       
+      .footer-call{
+        margin: 50px 0 0 93%;
+        animation: pulse 2s infinite;
+        background: transparent;
+        border-radius: 50%;
+        padding: 15px;
+        border: 2px solid #E0AFBC;
+        }
+        .footer-phone{
+            animation: pulse 2s infinite;
+            width: 80px;
+        }
+        
+        @keyframes pulse{
+            0%{
+                transform: scale(0.7);
+            }
+            70%{   transform: scale(1);
+            }
+            100%{
+                transform: scale(0.7);
+            }
+        }
+        .footer-button{
+            display: block;
+            margin: 0 auto;
+            font-family: "Open Sans";
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: 3px;
+            margin-top: 33px;
+            padding: 26px 65px;
+            background-color: #fff;
+            border: 1px solid  #E0AFBC;
+            
+        }
+        .footer-button:hover{
+            background-color: #E0AFBC;
+        }
    

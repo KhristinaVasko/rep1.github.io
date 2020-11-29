@@ -78,7 +78,35 @@
          -o-animation: myOrbit 4s linear infinite; 
             animation: myOrbit 4s linear infinite; 
 }
+.line1{
+    position: absolute;
+    left: 383px;
+    top: 0;
+    animation: MoveUpDown 6s linear infinite;
+}
+.line2{
+    position: absolute;
+    left: 383px;
+    bottom: 0;
+    animation: MoveDownUp 6s linear infinite;
+}
 
+@keyframes MoveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-80px);
+    }
+  }
+  @keyframes MoveDownUp {
+    0%, 100% {
+      transform: translateY(-50px);
+    }
+    50% {
+      transform: translateY(30px);
+    }
+  }
 @keyframes myOrbit {
     from { transform: rotate(0deg) translateX(10px) rotate(0deg); }
     to   { transform: rotate(360deg) translateX(10px) rotate(-360deg); }

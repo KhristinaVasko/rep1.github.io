@@ -52,3 +52,22 @@ $(function() {
         $(this).addClass("active").siblings().removeClass("active");
     });
 })
+// modal
+document.getElementById('button-open').addEventListener('click', 
+function() {
+    document.querySelector('.bg-modal').style.display ='flex';
+});
+document.getElementById('close').addEventListener('click', 
+function() {
+    document.querySelector('.bg-modal').style.display ='none';
+});
+
+document.getElementById('button-open1').addEventListener('click', 
+function() {
+    document.querySelector('.bg-modal').style.display ='flex';
+   
+});
+document.getElementById('close').addEventListener('click', 
+function() {
+    document.querySelector('.bg-modal').style.display ='none';
+});

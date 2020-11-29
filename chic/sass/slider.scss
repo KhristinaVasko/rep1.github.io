@@ -1,0 +1,107 @@
+
+.slider{
+    margin-top: 50px;
+  .slick-track{
+    display: flex;
+}  
+
+}
+.slider .slick-arrow.slick-prev{ 
+    display: none !important;
+}
+
+
+
+.slider .slick-dots{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.slider .slick-dots li{
+    margin: 0 6px;
+    margin-top: -50px;
+    font-size: 0;
+    z-index: 50;
+}
+.slick-dots li button{
+    font-size: 0;
+    border: none;
+    outline: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #e0afbcb4;
+}
+.slick-arrow.slick-next{
+    background: transparent;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 90px;
+    position: absolute;
+    outline: none;
+    border: none;
+    -webkit-transform: rotate(90deg); 
+    -moz-transform: rotate(90deg); 
+   -o-transform: rotate(90deg); 
+}
+.slick-arrow.slick-next:before{
+    display: inline-block;
+    content: "";
+    border-top: 2px solid black;
+    width: 2.5rem;  
+    margin: 4px 1rem;
+}
+
+.slick-dots li button:hover{
+    background: rgba(224, 175, 188, 0.9);
+}
+.slider__item{
+    
+    position: relative;
+     
+  }
+  .slider__item .slick-slide{
+    min-height: 360px;
+  }
+.logo-name{
+    position: absolute;
+    top: 160px;
+    left: 180px;
+}
+.vector{
+    position: absolute;
+    top: 160px;
+    left: 200px; 
+   -webkit-animation: myOrbit 4s linear infinite; 
+       -moz-animation: myOrbit 4s linear infinite; 
+         -o-animation: myOrbit 4s linear infinite; 
+            animation: myOrbit 4s linear infinite; 
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(10px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+@keyframes myOrbit1 {
+    from { transform: rotate(0deg) translateX(10px) rotate(0deg); }
+    to   { transform: rotate(-360deg) translateX(10px) rotate(360deg); }
+}
+
+.white{
+    position: absolute;
+    top: 70px;
+    left: 109px;
+    bottom: 45px;
+   -webkit-animation: myOrbit1 4s linear infinite; 
+       -moz-animation: myOrbit1 4s linear infinite; 
+         -o-animation: myOrbit1 4s linear infinite; 
+            animation: myOrbit1 4s linear infinite;  
+}
+ .slide-bg{
+     width: 100%;
+     max-width: 1770px;
+     object-fit: cover;
+     height: auto;
+     padding: 0 5px;
+ }

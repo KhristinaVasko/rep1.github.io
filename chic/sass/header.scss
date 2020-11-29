@@ -17,6 +17,7 @@
 main{
     max-width: 1770px;
     margin: 0 auto;
+    overflow: hidden;
 }
   // header styles
 .header{
@@ -151,7 +152,7 @@ main{
         color: #000;
         font-size: 38px;
         font-weight: 600;
-        background-color: rgba(204, 137, 148, 0.644);
+        background: rgba(224, 175, 188, 0.2);
     }
      //end of right part header
 }
@@ -161,14 +162,14 @@ main{
  .overlay {
         width: 0;
         position: fixed;
-        z-index: 5;
+        z-index: 100;
         overflow-x: hidden;
         transition: 0.5s;
         background-color: #fff; 
         .overlay-content {        
         width: 90%;
         text-align: center;
-        background-image: url(../img/Vector.png);
+        background-image: url('../img/Vector.svg');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: contain;
@@ -183,7 +184,7 @@ main{
             font-family: "Open Sans";
             margin: 20px auto;
            .burg-lang-list-item{
-               margin: 0 10px;
+               margin: 30px 10px;
                outline: none;
            }
            .burg-lang-list-item:hover{

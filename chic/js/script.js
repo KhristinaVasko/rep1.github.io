@@ -1,3 +1,19 @@
+//slider
+// $(document).ready(function(){
+//     $('.slider').slick({
+//         autoplay: true,
+//         nextArrow:"<button  class='slick-next pull-right'>Scroll</button>",
+//         dots: true
+     
+//     });
+// })
+$(document).ready(function(){
+    $('.slider').slick({
+        nextArrow:"<button  class='slick-next pull-right'>Scroll</button>",
+        dots: true
+    });
+});
+
 // styles for clickable language
 $(function() {
     $(".header__lang-list-item").on("click", function(e) {
@@ -36,4 +52,3 @@ $(function() {
         $(this).addClass("active").siblings().removeClass("active");
     });
 })
-//close-open menu

@@ -1,3 +1,8 @@
+@media(max-width: 1200px){
+   .slider .slick-arrow.slick-next{
+        display: none !important;
+    }
+}
 @media(max-width: 1255px){
     .header .header-right .nav-list{
         display: none;
@@ -18,7 +23,113 @@
         display: block;
        
     }
-    .header .header-right .contacts-container{
+   
+}
+@media(max-width: 1657px){
+.slider__item .white{
+    top: 24px;
+}
+.slider__item .logo-name{
+    top: 86px;
+}
+.slider__item .vector{
+    top: 104px;
+}
+.slider__item .slide-bg{
+    padding: 0 20px; 
+}
+}
+
+@media(max-width: 1590px){
+    .header .header-right{
+        margin-right: 17px;
+    }
+    .slider__item .white{
+        width: 495px;
+    }
+    .slider__item .logo-name{
+        left: 140px;
+        top: 40px;
+    }
+    .slider__item .vector{
+        left: 171px;
+        top: 81px;
+    }
+    .slider__item .slide-bg{
+        height: 553px;
+    }
+}
+
+@media(max-width: 1000px){
+    
+    .slider__item .slide-bg{
+        object-position: 75%;
+    }
+}
+@media(max-width: 770px){
+    .slider__item .white{
+        width: 422px;
+        left: 44px;
+    }
+    .slider__item .logo-name{
+      left: 69px;
+    width: 354px;  
+    }
+    .slider__item .vector{
+        left: 89px;
+    width: 321px;
+    
+    }
+    
+}
+@media(max-width: 1230px){
+.overlay{
+    height: 700px;
+}
+}
+@media(max-width: 503px){
+    .slider__item .slide-bg{
+
+    }
+    .slider__item .white {
+        width: 349px;
+        top: 89px;}
+        .slider__item .vector{
+            top: 125px;
+            left: 75px;
+            width: 286px;
+        }
+       
+    .slider__item .logo-name{
+        top: 97px;
+        left: 52px;
         
+    }
+}
+@media(max-width: 430px){
+    .slider__item .slide-bg{
+        height: 450px;
+    }
+    .slider__item .logo-name{
+        width: 280px;
+        left: 19px;
+    } 
+    .slider__item .vector{
+        top: 84px;
+        left: 29px;
+    }
+    .slider__item .white{
+        left: 15px;
+        width: 327px;
+        top: 49px;
+    }
+}
+@media(max-width: 364px){
+    .slider__item .white{
+        width: 290px;
+    }
+    .slider__item .vector{
+        
+    width: 251px;
     }
 }

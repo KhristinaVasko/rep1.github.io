@@ -184,6 +184,23 @@ main{
         margin: 0 10px;
         display: flex;
         flex-direction: column;
+        }
+        .overlay-content a{
+            padding: 3px 8px ;
+            
+            font-family: "Open Sans";
+            color: #171717;
+            letter-spacing: 1.5px;
+            background: url(../img/nav-line.png);
+            margin: 0 10px;
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            background-size: 70%;
+            &:hover{
+               
+            background: transparent;
+            background-color:  rgba(224, 175, 188, 0.3);  
+            }
         .burger-lang-list{
             display: flex;
             list-style: none;

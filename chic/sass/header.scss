@@ -84,7 +84,7 @@ main{
         margin-top: 29px;
         margin-right: 30px;
         .list-item{
-            padding: 0 8px;
+            padding: 3px 8px;
             font-family: "Open Sans";
             color: #171717;
             letter-spacing: 1.5px;
@@ -92,9 +92,13 @@ main{
             margin: 0 10px;
             background-repeat: no-repeat;
             background-position: bottom left;
+            background-size: 70%;
         }
+        
         .list-item:hover{
-            background: rgba(224, 175, 188, 0.3);
+            
+            background: transparent;
+            background-color:  rgba(224, 175, 188, 0.3);
         }
         .onas{
             background-size: 39px 10px;

@@ -1,15 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
 
-}
 $font: Lato, san-serif;
 $color: #fff;
 .container_3{
-    height: 488px;
     width: 100%;
     background-image: url(img/services.jpg.png);
     background-repeat: no-repeat;
+    padding-bottom: 50px;
 }
 .about_text_1_white{
 color: $color;
@@ -29,7 +25,7 @@ text-align: center;
 padding: 60px;
 }
 .about_text_1_white{
-width: 544px;
+max-width: 544px;
 height: 143px;
 color: $color;
 font-family: $font;
@@ -41,9 +37,9 @@ line-height: 25.89px;
 }
 .services{
 border: none;
-width: 902px;
-height: 312px;
+max-width: 800px;
 margin: 0 auto;
+display: block;
 margin-top: 146px;
 color:$color;
 

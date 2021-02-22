@@ -1,0 +1,179 @@
+ *{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.we_are{
+color: #898f99;
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+letter-spacing: 4.8px;
+margin-top: 143px;
+text-align: center;
+}
+.heading_1{
+color: #0ec8cb;
+font-family: 'Montserrat', sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 30px;
+text-transform: uppercase;
+letter-spacing: 4.8px;
+margin-top: 35px;
+text-align: center;
+}
+.info_1{
+color: #999999;
+font-family: "PT Sans";
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-top: 20px;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+
+.stickers_1{
+ width: 236px;
+height: 420px;
+border: 1px solid #ececec;
+background-color: #f7f7f7;
+display: block;
+float: left;
+margin-top: 108px;}
+.stickers_2{
+    width: 236px;
+   height: 420px;
+   border: 1px solid #ececec;
+   background-color: #f7f7f7;
+   display: block;
+   float: left;
+   margin-top: 108px;}
+   .stickers_3{
+    width: 236px;
+   height: 420px;
+   border: 1px solid #ececec;
+   background-color: #f7f7f7;
+   display: block;
+   float: left;
+   margin-top: 108px;}
+   .stickers_4{
+    width: 236px;
+   height: 420px;
+   border: 1px solid #ececec;
+   background-color: #f7f7f7;
+   display: block;
+   float: left;
+   margin-top: 108px;
+
+}
+.navigation{
+max-width: 1000px;
+margin: 0 auto;
+ 
+}
+.images_list_1{
+    padding: 55px;
+    margin-left: 74px;
+    margin-top: 55px;
+    background: url("Anchor.png") no-repeat;
+}
+.images_list_2{
+    padding: 55px;
+    margin-left: 74px;
+    margin-top: 55px;
+    background: url("Diamond_black.png") no-repeat;
+}
+.images_list_3{
+    padding: 55px;
+    margin-left: 74px;
+    margin-top: 55px;
+    background: url("Eyeglasses_black.png") no-repeat;
+}
+.images_list_4{
+    padding: 55px;
+    margin-left: 74px;
+    margin-top: 55px;
+    background: url("Monitor.png") no-repeat;
+}
+.heading_list{
+    padding-top: 55px;
+    text-align: center;
+}
+.description{
+    padding-top: 33px;
+    padding-left: 30px;
+    padding-right: 32px;
+    text-align: center;
+}
+.stickers_1:hover{
+ transition: 1s;
+ border: 1px solid #0ec8cb;
+ background-color: #0ec8cb;
+}
+.stickers_2:hover{
+    transition: 1s;
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+   }
+   .stickers_3:hover{
+    transition: 1s;
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+   }
+   .stickers_4:hover{
+    transition: 1s;
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+   }
+.stickers_1:hover .images_list_1{
+    background: url("Anchor_white.png") no-repeat;
+    
+}
+.stickers_2:hover .images_list_2{
+    background: url("Diamond.png") no-repeat;
+  
+}
+.stickers_3:hover .images_list_3{
+    background: url("Eyeglasses_white.png") no-repeat;
+  
+}
+.stickers_4:hover .images_list_4{
+    background: url("Monitor_white.png") no-repeat;
+   
+}
+
+.stickers_1:hover p{
+    color: white;
+}
+.stickers_2:hover p{
+    color: white;
+}
+.stickers_3:hover p{
+    color: white;
+}
+.stickers_4:hover p{
+    color: white;
+}
+.stickers_1:hover h3{
+    color: white;
+}
+.stickers_2:hover h3{
+    color: white;
+}
+.stickers_3:hover h3{
+    color: white;
+}
+.stickers_4:hover h3{
+    color: white;
+} 

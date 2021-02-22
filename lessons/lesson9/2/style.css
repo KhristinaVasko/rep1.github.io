@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.heading1{
+    color: #3c3c3c;
+font-family: Lato;
+font-size: 34px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 8.95px;
+margin-top: 108px;
+text-align: center;
+}
+.head{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.info1{
+ 
+    width: 561px;
+    color: #3c3c3c;
+font-family: Lato;
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+text-align: center;
+margin-top: 40px;
+margin-left: auto;
+margin-right: auto;
+}
+.sticker{
+   
+    width: 269px;
+    height: 268px;
+    margin-left: auto;
+    background: rgba(0, 228, 246, .4);
+    transition-duration: .2s;
+
+   
+   
+}
+.sticker:hover {
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);  
+  transform: translateY(-20px);
+}
+.sticker1{
+   background-image: url(https://www.biography.com/.image/ar_8:10%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_620/MTY0NTkzMjM0MDUwMjk1MzQ5/james_holzhauer_ad_04-08-19_sn7966_square.jpg);
+  background-size: cover ;
+  position: relative;
+}
+.sticker2{
+  background-image: url(1_1.png);
+  position: relative;
+  }
+  .sticker3{
+    background-image: url(1_2.png);
+    position: relative;
+  }
+  .sticker4{
+   background-image: url(1_3.png);
+   position: relative;
+  }
+
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    height: 324px;
+    align-content: center;
+    align-items: center;
+      flex-direction: row;
+      margin-top: 80px;
+      justify-content: space-between;
+      margin-top: 59px;
+}
+.box{
+    margin-left:160px ;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .sticker:hover .overlay {
+    opacity: 1;
+  }
+  .items {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .smedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+}
+li {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+  padding: 10px;
+  background: rgba(0, 228, 246, .4);
+    transition-duration: .2s;
+
+  
+ 
+}
+li:hover {
+  -o-transform: scaleY(1.2);
+  -ms-transform: scaleY(1.2);
+  -moz-transform: scaleY(1.2);
+  -webkit-transform: scaleY(1.2);
+  transform: scaleY(1.2);
+}
+.n1{
+  color: #282528;
+  font-family: "Lato - Bold";
+  font-size: 18px;
+  font-weight: 700;
+  padding-right:188px ;
+}
+.prof{
+  font-family: "Lato Light";
+font-weight: 300;
+}
+.names{
+  position: absolute;
+  top: 280px;
+}
+.n1{
+  width: 140px;
+}

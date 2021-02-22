@@ -1,0 +1,565 @@
+.block_4 {
+    height: 1536px;
+    background-color: #ffe92f;
+    margin-top: -30px;
+    position: relative;
+    .heading_gg {
+        display: inline-block;
+        margin: 0 auto;
+        color: #262626;
+        font-family: "Raleway", sans-serif;
+        margin-top: 120px;
+        margin-left: 640px;
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 27px;
+      }
+      .info_4block {
+        width: 577px;
+        height: 70px;
+        color: #262626;
+        font-family: "Raleway", sans-serif;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 28px;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+      }
+  }
+  .flex_container {
+    display: flex;
+    .flex-item1 {
+        width: 770px;
+        height: 550px;
+        margin-top: 50px;
+        margin-left: 200px;
+      }
+  }
+  .container_right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+  
+  .flex-item2 {
+    padding-bottom: 27px;
+  }
+  
+  .container_buttom {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: -1160px;
+    margin-top: 630px;
+    .flex-item4 {
+        display: flex;
+        width: 570px;
+        height: 400px;
+      }
+      .flex-item5 {
+        width: 570px;
+        height: 400px;
+        margin-left: 20px;
+      }
+  }
+  .view {
+    position: absolute;
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #5585a2;
+    margin-left: 690px;
+    margin-top: 50px;
+    &_all {
+        color: #ffffff;
+        font-family: "Raleway", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 27px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 15px 10px;
+      }
+      &:hover {
+        background-color: #80bbdf;
+      }
+  }
+
+
+
+
+  @media (min-width: 320px) and (max-width: 397px){
+.block_4{
+   
+    height: 2200px;
+    .heading_gg{
+        margin-left: 10px;
+    }
+    .info_4block{
+        width: 320px;
+        margin-left: 5px;
+    }
+}
+     .flex_container{
+         justify-content: column;
+         .flex-item1{
+        margin-top: 100px;
+        margin-left: 0;
+        .flex_1{
+         width: 300px;
+         height: 300px;
+         margin-left: 10px;
+     }
+     }
+     } 
+     .container_right{
+        margin-top: 430px;
+        margin-left: -300px;
+        padding-left: 10px;
+     }
+     .flex_2{
+        width: 300px;
+        height: 300px;
+        margin-left: -10px;
+     }
+     .flex_3{
+        width: 300px;
+        height: 300px;
+        margin-left: -10px;
+     }
+     .container_buttom{
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 1100px;
+.flex-item4{
+    margin-left: -310px;
+    .flex_4{
+            width: 300px;
+            height: 300px;
+        }
+}
+.flex-item5{
+    margin-left: -310px;
+    margin-top: -60px;
+    .flex_5{
+        width: 300px;
+    }
+}
+       
+     } .view{
+            margin-left: 50px;
+            margin-top: -60px;
+    display: inline-block;
+        }
+  }
+
+  @media (min-width:398px) and (max-width: 450px){
+    .block_4{
+        width: 600px;
+        height: 2400px;
+        .heading_gg{
+            margin-left: 70px;
+        }
+        .info_4block{
+            width: 320px;
+            margin-left: 50px;
+        }
+    }
+         .flex_container{
+             justify-content: column;
+             .flex-item1{
+            margin-top: 100px;
+            margin-left: 0;
+            .flex_1{
+             width: 350px;
+             height: 350px;
+             margin-left: 30px;
+         }
+         }
+         } 
+         .container_right{
+            margin-top: 430px;
+            margin-left: -300px;
+            padding-left: 10px;
+         }
+         .flex_2{
+            width: 350px;
+            height: 350px;
+            margin-left: -60px;
+            margin-top: 40px;
+         }
+         .flex_3{
+            width: 350px;
+            height: 350px;
+            margin-left: -60px;
+         }
+         .container_buttom{
+            flex-direction: column;
+            margin-left: 0;
+            margin-top: 1220px;
+    .flex-item4{
+        margin-left: -310px;
+        .flex_4{
+                width: 300px;
+                height: 300px;
+            }
+    }
+    .flex-item5{
+        margin-left: -310px;
+        margin-top: -60px;
+        .flex_5{
+            width: 300px;
+        }
+    }
+           
+         } .view{
+            margin-left: 100px;
+                margin-top: -60px;
+        display: inline-block;
+            }
+      
+  }
+
+  @media (min-width:451px) and (max-width: 500px){
+    .block_4{
+        width: 800px;
+        height: 2400px;
+        .heading_gg{
+            margin-left: 100px;
+        }
+        .info_4block{
+            width: 400px;
+            margin-left: 50px;
+        }
+    }
+         .flex_container{
+             justify-content: column;
+             .flex-item1{
+            margin-top: 100px;
+            margin-left: 50px;
+            .flex_1{
+             width: 350px;
+             height: 350px;
+             margin-left: 30px;
+         }
+         }
+         } 
+         .container_right{
+            margin-top: 430px;
+            margin-left: -680px;
+            padding-left: 10px;
+         }
+         .flex_2{
+            width: 350px;
+            height: 350px;
+            margin-left: -60px;
+            margin-top: 40px;
+         }
+         .flex_3{
+            width: 350px;
+            height: 350px;
+            margin-left: -60px;
+         }
+         .container_buttom{
+            flex-direction: column;
+            margin-left: 0;
+            margin-top: 1220px;
+    .flex-item4{
+        margin-left: -310px;
+        .flex_4{
+                width: 300px;
+                height: 300px;
+            }
+    }
+    .flex-item5{
+        margin-left: -310px;
+        margin-top: -60px;
+        .flex_5{
+            width: 300px;
+        }
+    }
+           
+         } .view{
+            margin-left: 160px;
+                margin-top: -60px;
+        display: inline-block;
+            }
+  }
+
+  
+  @media (min-width:501px) and (max-width: 650px){
+    .block_4{
+        width: 800px;
+        height: 2400px;
+        .heading_gg{
+            margin-left: 100px;
+        }
+        .info_4block{
+            width: 400px;
+            margin-left: 50px;
+        }
+    }
+         .flex_container{
+             justify-content: column;
+             .flex-item1{
+            margin-top: 100px;
+            margin-left: 50px;
+            .flex_1{
+             width: 350px;
+             height: 350px;
+             margin-left: 30px;
+         }
+         }
+         } 
+         .container_right{
+            margin-top: 430px;
+            margin-left: -680px;
+            padding-left: 10px;
+         }
+         .flex_2{
+            width: 350px;
+            height: 350px;
+            margin-left: -60px;
+            margin-top: 40px;
+         }
+         .flex_3{
+            width: 350px;
+            height: 350px;
+            margin-left: -60px;
+         }
+         .container_buttom{
+            flex-direction: column;
+            margin-left: 0;
+            margin-top: 1220px;
+    .flex-item4{
+        margin-left: -310px;
+        .flex_4{
+                width: 300px;
+                height: 300px;
+            }
+    }
+    .flex-item5{
+        margin-left: -310px;
+        margin-top: -60px;
+        .flex_5{
+            width: 300px;
+        }
+    }
+           
+         } .view{
+            margin-left: 160px;
+                margin-top: -60px;
+        display: inline-block;
+            }
+  }
+
+  @media (min-width:651px) and (max-width: 800px){
+    .block_4{
+        width: 800px;
+        height: 2400px;
+        .heading_gg{
+            margin-left: 260px;
+        }
+        .info_4block{
+            width: 400px;
+            margin-left: 220px;
+        }
+    }
+         .flex_container{
+             justify-content: column;
+             .flex-item1{
+            margin-top: 100px;
+            margin-left: 50px;
+            .flex_1{
+                width: 500px;
+             height: 350px;
+             margin-left: 90px;
+         }
+         }
+         } 
+         .container_right{
+            margin-top: 430px;
+            margin-left: -680px;
+            padding-left: 10px;
+         }
+         .flex_2{
+            width: 500px;
+            height: 350px;
+            margin-left: 170px;
+            margin-top: 40px;
+         }
+         .flex_3{
+            width: 500px;
+            height: 350px;
+            margin-left: 170px;
+         }
+         .container_buttom{
+            flex-direction: column;
+            margin-left: 0;
+            margin-top: 1220px;
+    .flex-item4{
+        margin-left: -310px;
+        .flex_4{
+            width: 500px;
+            height: 300px;
+            margin-left: -190px;
+            }
+    }
+    .flex-item5{
+        margin-left: -310px;
+        margin-top: -60px;
+        .flex_5{
+            width: 500px;
+            margin-left: -190px;
+            height: 300px;
+        }
+    }
+           
+         } .view{
+            margin-left: 300px;
+                margin-top: -60px;
+        display: inline-block;
+            }
+  }
+
+  @media (min-width:801px) and (max-width: 920px){
+    .block_4{
+        width: 1000px;
+        height: 2400px;
+        .heading_gg{
+            margin-left: 290px;
+        }
+        .info_4block{
+            width: 400px;
+            margin-left: 240px;
+        }
+    }
+         .flex_container{
+             justify-content: column;
+             .flex-item1{
+            margin-top: 100px;
+            margin-left: 50px;
+            .flex_1{
+                width: 500px;
+             height: 350px;
+             margin-left: 130px;
+         }
+         }
+         } 
+         .container_right{
+            margin-top: 430px;
+            margin-left: -680px;
+            padding-left: 10px;
+         }
+         .flex_2{
+            width: 500px;
+            height: 350px;
+            margin-left: 30px;
+            margin-top: 40px;
+         }
+         .flex_3{
+            width: 500px;
+            height: 350px;
+            margin-left: 30px;
+         }
+         .container_buttom{
+            flex-direction: column;
+            margin-left: 0;
+            margin-top: 1220px;
+    .flex-item4{
+        margin-left: -310px;
+        .flex_4{
+            width: 500px;
+            height: 300px;
+            margin-left: -190px;
+            }
+    }
+    .flex-item5{
+        margin-left: -310px;
+        margin-top: -60px;
+        .flex_5{
+            width: 500px;
+            margin-left: -190px;
+            height: 300px;
+        }
+    }
+           
+         } .view{
+            margin-left: 350px;
+                margin-top: -60px;
+        display: inline-block;
+            }
+  }
+
+  @media (min-width:920px) and (max-width: 1200px){
+    .block_4{
+        width: 1200px;
+        height: 1300px;
+        .heading_gg{
+            margin-left: 450px;
+        }
+        .info_4block{
+            width: 400px;
+            margin-left: 390px;
+        }
+    }
+         .flex_container{
+             
+             .flex-item1{
+            // margin-top: 100px;
+            margin-left: 50px;
+            .flex_1{
+                width: 350px;
+                height: 410px;
+                margin-left: 170px;
+         }
+         }
+         } 
+         .container_right{
+            margin-top: 10px;
+            margin-left: -20px;
+            padding-left: 10px;
+         }
+         .flex_2{
+            width: 350px;
+            height: 200px;
+            margin-left: 30px;
+            margin-top: 40px;
+         }
+         .flex_3{
+            width: 350px;
+            margin-left: 30px;
+            height: 180px;
+         }
+         .container_buttom{
+            margin-left: 0;
+            margin-top: 300px;
+    .flex-item4{
+        margin-left: -530px;
+        .flex_4{
+            width: 300px;
+            height: 300px;
+            margin-left: -190px;
+            margin-top: 190px;
+            }
+    }
+    .flex-item5{
+    
+        margin-left: -250px;
+    margin-top: 190px;
+        .flex_5{
+            width: 400px;
+            margin-left: -190px;
+            height: 300px;
+        }
+    }
+           
+         } .view{
+            margin-left: 490px;
+                margin-top: -60px;
+        display: inline-block;
+            }
+  
+  }

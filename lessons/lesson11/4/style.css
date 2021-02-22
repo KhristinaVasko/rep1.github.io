@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body{
+    background-color:rgb(186, 95, 189);
+}
+
+.container { 
+margin: 0 auto;
+    width: 428px;
+    height: 524px; 
+    background: linear-gradient(13deg, rgba(2,0,36,1) 0%, rgba(49,37,174,1) 7%, rgba(183,107,212,1) 100%), url(Vector_Smart_Object.jpg); 
+    background-size: cover; 
+    box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8); 
+    }
+.list_1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+.list_item_1 {
+   
+    color: #fbf6e4;
+font-family: Quicksand;
+font-size: 18px;
+font-weight: 700;
+    padding: 26px;
+  float: left;
+}
+.list_item_1:hover{
+    text-decoration: underline red;
+}
+.subtitle{
+    color: #fbf6e4;
+font-family: Quicksand;
+font-size: 16px;
+font-weight: 700;
+}
+.info{
+    margin: 0 auto;
+    padding: 53px;
+    height: 500px;
+}
+.subtitle_1{
+    color: #fbf6e4;
+font-family: Quicksand;
+font-size: 13px;
+font-weight: 700;
+display: inline;
+}
+.subtitle:first-child{
+    margin-top: 57px;
+    padding: 11px;
+}
+input{
+    margin: 11px 0;
+}
+.button{
+    margin-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 261px;
+height: 42px;
+background-color: #23ae92;
+ text-align: center;
+}
+.button:hover{
+    background-color: #12ebbf;
+}
+.sign_in{
+   padding: 13px 102px;
+   color: #fbf6e4;
+   font-family: Quicksand;
+   font-size: 18px;
+   font-weight: 700;
+   width: 59px;
+}
+
+.list_2 {
+    margin-top: 33px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  .list_item_2 {
+    color: #b9b9cc;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 26px;
+    padding-top: 33px;
+text-decoration: underline;
+float: left;
+}
+.list_item_2:hover{
+    color: #e5e5f0;
+
+}
+.container_end{
+    position: absolute;
+   button: 0;
+}

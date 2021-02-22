@@ -21,11 +21,13 @@ button, a{
 }
 .container{
   width: 85%;
+  padding-top: 100px;
   max-width: 1400px;
   margin: auto;
 }
 .gif{
   padding-top: 15px;
+  height: 240px;
 }
 .container__top{
   display: flex;
@@ -35,14 +37,16 @@ button, a{
 }
 .heading1{
   font-family: "Oleo", 'sans-serif';
-  font-size: 40px;
+  font-size: 50px;
+  margin-left: 20px;
+  margin-top: 50px;
   letter-spacing: 1.5px;
   padding-bottom: 15px;
 }
 .text1{
   font-size: 23px;
 }
-.open-but, .close-but{
+.open-but{
   width: 150px;
   margin: 25px 0;
   padding: 15px 10px;
@@ -54,127 +58,63 @@ button, a{
 }
 .open-but:hover{
   background:transparent;
-  border: 2px solid rgb(79, 79, 165);
+  border: 1px solid rgb(79, 79, 165);
   color: #fff;
 }
-.close-but:hover{
-  background:transparent;
-  border: 2px solid rgb(79, 79, 165);
-  color: #fff;
-}
+
 .worklist{
   display: none;
+  margin-top: 50px;
 }
-.worklist-grid{
-  display: flex;
-  padding-top: 20px;
-  flex-wrap: wrap;
-}
+
 .works-el{
   padding: 12px;
   opacity: 1;
-  transition: 1s ease;
-  display: inline-block;
+  /* transition: 1s ease; */
   list-style: none;
+  height: 50px;
+  position: relative;
+  
 }
+
 .works-el:hover{
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  opacity: 0.8;
+  opacity: 0.6;
   transition: 1s ease;
 }
 .works-el a{
   text-decoration: none;
   color: #fff;
+  font-size: 30px;
 }
-.works-el-photo{
-  width: 230px;
-  height: 130px;
-  border-radius: 15px;
+.beetroot-container{
+  width: 100%;
+  max-width: 1400px;
+  margin: 30px auto 0 auto;
 }
-.title{
-      font-weight: normal;
-      padding-bottom: 20px;
-      font-size: 40px;
-      font-family: "Oleo";
-      font-weight: 600;
-      color: #000;
-      background-clip: text;
-      text-align: center;
-      border-bottom: 1px solid black;
-  }
-.title:hover{
-    color: rgb(42, 68, 214);
-    transition: 1s;
-  }
-  .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .middle:hover{
-    opacity: 1;
-  }
-  .text{
-    color: #fff;
-    font-size: 28px;
-    font-weight: 700;
-    opacity: 1;
-    background-color: #6983f7;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
-
-
-
-
-
-  .lessons_list{
-    display: flex;
-    color: black;
-    text-decoration: none;
-    flex-wrap: wrap;
-     
-      list-style-type: none;
-
-  }
-.lessons_list .list_item{
-  width: 200px;
-  height: 200px;
-  background-color: rgb(202, 86, 106);
-  flex-wrap: wrap;
+.betroot-title{
+  text-align: center;
+  font-family: "Oleo";
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+.beetroot-container-list{
+  list-style: none;
+}
+.blist-item{
+  width: 100%;
+  border: 1px solid white;
+  padding: 20px;
+  margin-top: 10px;
+}
+.blist-item a {
+  color:#fff;
   text-decoration: none;
-padding:20px 30px;
-margin: 20px;
-color: black;
-font-size: 14px;
-  }
-  .lessons_list .list_item:hover{
-    -o-transform: scaleY(1.2);
-    -ms-transform: scaleY(1.2);
-    -moz-transform: scaleY(1.2);
-    -webkit-transform: scaleY(1.2);
-    transform: scaleY(1.2);
-    transition-duration: .2s;
-    color: white;
-    background-color: rgb(85, 21, 110);
-  }
+  font-size: 20px;
+}
+.blist-item:hover a{
+  color:rgb(255, 217, 0);
+}
 
-  .lessons_list .list_item:last-child{
-border-bottom: none;
-  }
-  .list_item a{
-    color: white;
-      font-size: 30px;
-      text-decoration: none;
-  }
- 
-.list_item_exams{
-  background-color: goldenrod;
+.blist-item:hover{
+  border: 1px solid rgb(255, 217, 0);
 }

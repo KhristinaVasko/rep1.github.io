@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+body{
+    background-image: url(img.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 101px;
+}
+.text2{
+    display: inline-block;
+    width: 342px;
+height: 41px;
+text-align: center;
+margin-top: 45px;
+color: #262626;
+font-family: Raleway;
+font-size: 17px;
+font-weight: 300;
+line-height: 25px;
+}
+input[type=text], textarea{
+    padding: 5px;
+}
+.text{
+    display: inline-block;
+    color: #262626;
+font-family: Raleway;
+font-size: 90px;
+font-weight: 700;
+line-height: 25px;
+}
+.main_container{
+    position: relative;
+    width: 987px;
+    height: 445px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.form_1{
+position: absolute;
+left: 0;
+
+}
+
+.input_name{
+    width: 500px;
+height: 50px;
+margin-bottom: 10px;
+background-color: #20d3d3;
+}
+.input_name:hover{
+    background-color: #87e7e7;
+}
+input{
+    color: #ffffff;
+font-family: Raleway;
+font-size: 15px;
+font-weight: 300;
+line-height: 25px;
+}
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  textarea::placeholder {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+.input_email{
+    width: 500px;
+    height: 50px;
+    background-color: #20d3d3;
+    margin-bottom: 10px;
+}
+.input_email:hover{
+    background-color: #87e7e7;
+}
+.input_phone{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #20d3d3;
+}
+.input_phone:hover{
+    background-color: #87e7e7;
+}
+.input_messages{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    background-color: #20d3d3;
+    
+}
+.input_messages text{
+    position: absolute;
+    top: 0;
+}
+.input_messages:hover{
+    background-color: #87e7e7;}
+.right_text{
+position: absolute;
+right: 0;
+top: 0;
+    }
+    .subtext{
+        color: #262626;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 300;
+line-height: 25px;
+    }
+ .main_text{
+    font-family: "Raleway - Bold";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25px;
+ }   
+
+.all_rights{
+    color: #b9b9b9;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 300;
+line-height: 25px;
+position: absolute;
+left: 164px;
+top: 37px;
+}
+.icon{
+    color: #b9b9b9;
+font-family: Pacifico;
+font-size: 25px;
+font-weight: 400;
+line-height: 25px;
+position: absolute;
+left: 50%;
+top: 32px;
+}

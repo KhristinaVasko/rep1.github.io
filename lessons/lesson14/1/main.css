@@ -212,19 +212,12 @@
   color: #fff;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .container_4 {
-  height: 1410px;
   width: 100%;
 }
 .container_4 .about_us_1 {
   border: none;
-  width: 902px;
-  height: 1480px;
+  max-width: 800px;
   margin: 0 auto;
   margin-top: 200px;
 }
@@ -253,8 +246,7 @@
   font-family: Lato;
   font-size: 14px;
   font-weight: 300;
-  width: 549px;
-  height: 89px;
+  max-width: 549px;
   margin: 0 auto;
   text-align: center;
   line-height: 25.89px;
@@ -263,10 +255,8 @@
   margin-bottom: 40px;
 }
 .container_4 .photos {
-  margin-top: 110px;
-  display: inline-block;
-  margin-left: 45%;
-  margin-bottom: 20px;
+  display: block;
+  margin: 110px auto 20px auto;
 }
 
 .what_text {
@@ -274,7 +264,7 @@
   font-family: Lato;
   font-size: 14px;
   font-weight: 300;
-  width: 549px;
+  max-width: 549px;
   height: 89px;
   margin: 0 auto;
   text-align: center;
@@ -284,6 +274,22 @@
   margin-bottom: 40px;
 }
 
+@media (max-width: 825px) {
+  .container_4 .about_us_1 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .container_4 .info_3 {
+    padding: 65px 46px;
+  }
+}
+@media (max-width: 611px) {
+  .container_4 .what_text {
+    font-size: 20px;
+    margin: 0 15px 100px 15px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -363,9 +369,9 @@
 }
 
 .about_text_1 {
-  height: 66px;
   font-family: Lato;
   display: block;
+  max-width: 533px;
   padding-bottom: 30px;
   margin-bottom: 20px;
   font-size: 16px;
@@ -377,32 +383,22 @@
 
 .centr {
   margin: 0 auto;
-  width: 899px;
-  height: 500px;
+  max-width: 800px;
   margin-top: 140px;
 }
 
 .contact_us {
-  width: 395px;
-  margin-left: 230px;
-  margin-bottom: 40px;
-  height: 58px;
-  margin: 0 auto;
+  padding: 20px 60px;
+  display: block;
+  margin: 0 auto 40px auto;
   border: 2px solid #3c3c3c;
   background-color: #3c3c3c;
-}
-.contact_us .button_text {
   color: #ffffff;
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2.54px;
-}
-
-.button1 {
-  margin-left: 230px;
-  margin-bottom: 30px;
 }
 
 .footer {
@@ -419,5 +415,24 @@
 .footer .footer_image {
   margin-bottom: 20px;
   padding: 0 20px;
+}
+
+@media (max-width: 825px) {
+  .container_6 .centr {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media (max-width: 611px) {
+  .about_text_1 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 536px) {
+  .info_6 {
+    padding: 30px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

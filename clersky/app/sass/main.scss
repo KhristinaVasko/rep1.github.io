@@ -1,0 +1,21 @@
+@import "libs.scss";
+@import "header.scss";
+@import "footer.scss";
+@import "homepage.scss";
+
+@font-face{
+    font-family: "Noto Sans";
+    src: url("../fonts/Noto_Sans/NotoSans-Regular.ttf") format("truetype"),
+}
+@font-face {
+    font-family: "Recoleta-Bold";
+    src: url("../fonts/Recoleta/Recoleta-Bold.woff2") format("woff2"),
+         url("../fonts/Recoleta/Recoleta-Bold.woff") format("woff"),
+         url("../fonts/Recoleta/Recoleta-Bold.ttf") format("truetype");
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

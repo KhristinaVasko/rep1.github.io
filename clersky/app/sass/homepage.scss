@@ -1,0 +1,134 @@
+// block1
+.intro{
+    background: #163A24;
+    // height: 100vh;
+    width: 100%;
+    &-container{
+        width: 100%;
+        max-width: 1180px;
+        display: flex;
+        align-items: center;    
+        align-items: flex-end;
+          margin: 0 auto;
+    }
+}
+.intro-title{
+    padding-top: 318px;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: "Recoleta-Bold";
+    line-height: 65px;
+    letter-spacing: 1.5px;
+    color: #FBFAF7;
+    max-width: 390px;
+}
+.intro-container-right img{
+    padding-top: 150px;
+    width: 100%;
+    max-width: 738px;
+}
+.intro-subtitle{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 130px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FBFAF7;
+    padding-top: 18px;
+    max-width: 480px;
+
+}
+
+//block2
+.human-block-container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 130px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.human-block-right{
+    margin-left: 100px;
+.human-block-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    padding-top: 148px;
+    font-family: "Recoleta-Bold";
+    color: #163A24;
+    max-width:  350px;
+} 
+.human-block-subtitle{
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 37px;
+    color: #163A24;
+    max-width: 375px;
+}
+}
+
+
+//block 3 
+.multitask-container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 14px auto 0  auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.multitask-left{
+    padding-right: 118px;
+    .multitask-title{
+        font-family: "Recoleta-Bold";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        max-width: 390px;
+        line-height: 54px;
+        padding-top: 105px;
+        color: #163A24;
+    }
+    .multitask-subtitle{
+        font-family: "Noto Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        padding-top: 27px;
+        max-width: 380px;
+        color: #163A24;
+    }
+    
+}
+
+//block 4 
+.partners-container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    .partners-title{
+        font-family: "Recoleta-Bold";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 54px;
+        text-align: center;
+        color: #163A24;
+        margin-top: 115px;
+    }
+    .partners-wrapper{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 125px;
+        margin-top: 74px;
+    }
+}
+
+//block 5 

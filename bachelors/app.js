@@ -15,6 +15,7 @@ mongoose.connect(keys.mongoURI)
     .catch(error => console.log(error))
 
 const app = express()
+app.use('/uploads', express.static('uploads'))
 app.use(require('morgan')('dev'))
 app.use(require('cors')())
 app.use(passport.initialize())

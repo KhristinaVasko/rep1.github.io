@@ -19,4 +19,5 @@ const positionSchema = new Schema ({
         type: Schema.Types.ObjectId
     }
 })
-module.exports = mongoose.model('positions', positionSchema)
+
+module.exports = mongoose.model('position', positionSchema)

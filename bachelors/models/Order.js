@@ -9,24 +9,24 @@ const orderSchema = new Schema ({
     order: {
         type: Number,
         required: true,
-
     },
     list: [
         {
             name: {
                 type: String
             },
-            quantity: {
+            quality: {
                 type: Number
             },
-            cost:{
+            cost: {
                 type: Number
             }
         }
     ],
-    user: {
-        ref: 'users',
-        type: Schema.Types.ObjectId
+    password: {
+        type: Number,
+        required: true,
     }
 })
+
 module.exports = mongoose.model('orders', orderSchema)

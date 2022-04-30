@@ -1,4 +1,3 @@
 module.exports = {
-    mongoURI: 'mongodb+srv://KhrisVasko:09042001tinaif@cluster0.tqk4q.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-    jwt: 'dev-jwt'
+    mongoURI: 'mongodb+srv://Khris_Vasko:09042001tinaif@cluster0.uum98.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 }

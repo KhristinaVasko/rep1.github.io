@@ -53,6 +53,7 @@
         </button>
         <button class="modal-action btn waves-effect"
         (click)="submit()"
+        [disabled]="order.list.length === 0 || pending"
         >Submit</button>
     </div>
 </div>

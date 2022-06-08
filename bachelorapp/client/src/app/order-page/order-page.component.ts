@@ -53,8 +53,8 @@ export class OrderPageComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   submit() {
-    this.modal.close()
-    // this.pending = true
+    // this.modal.close()
+    this.pending = true
 
     const order: Order = {
       list: this.order.list.map(item => {

@@ -1,0 +1,43 @@
+<form 
+class="card"
+[formGroup] ="registerForm"
+(ngSubmit)="onSubmit()"
+>
+    <div class="card-content">
+        <span class="card-title">Create account</span>
+        <div class="input-field">
+            <input 
+                formControlName="email"
+                id="email"
+                type="email"
+                [ngClass]="{'invalid': registerForm.get('email')?.invalid && registerForm.get('email')?.touched}"
+            >
+            <label for="email">Email:</label>
+            <span class="helper-text red-text"
+            *ngIf="registerForm.get('email')?.invalid && registerForm.get('email')?.touched"
+            >
+                 Email is not correct? try again
+            </span>
+        </div>
+        <div class="input-field">
+            <input
+                formControlName="password"
+                id="password"
+                type="password" >
+            <label for="password">password:</label>
+            <span
+        class="helper-text red-text"
+        *ngIf="registerForm.get('password')?.invalid && registerForm.get('password')?.touched"
+      >
+        Password is not corect? try again
+      </span>
+        </div>
+    </div>
+    <div class="card-action">
+        <button 
+        type="submit"
+        class="modal-action btn waves-effect"
+        [disabled]="registerForm.invalid"
+        >Sign in</button>
+    </div>
+</form>
